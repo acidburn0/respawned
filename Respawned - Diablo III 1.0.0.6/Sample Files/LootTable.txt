@@ -1,0 +1,15 @@
+//below is an example of how to add items to the loot table
+//lines that begin with "//" are ignored. Blank lines are also ignored
+//comments are not needed and are only for organization.
+
+//healthglobe_02
+//id(TAB)//range
+85798	1000
+
+//healthglobe
+//id(TAB)//range
+4267	1000
+
+//tome of secrets
+//id(TAB)//range
+218853	1000

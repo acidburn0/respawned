@@ -1,0 +1,4 @@
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\Staff_Release\IPlugin.dll
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\Staff_Release\IPlugin.pdb
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\IPlugin\IPlugin\obj\Staff_Release\IPlugin.dll
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\IPlugin\IPlugin\obj\Staff_Release\IPlugin.pdb

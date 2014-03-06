@@ -1,0 +1,6 @@
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\Release\Respawned.exe.config
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\obj\x86\Release\Respawned.csprojResolveAssemblyReference.cache
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\obj\x86\Release\Respawned.DIIIBOT.resources
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\obj\x86\Release\Respawned.Login.resources
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\obj\x86\Release\Respawned.SellRuleWindow.resources
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\obj\x86\Release\Respawned.csproj.GenerateResource.Cache

@@ -1,0 +1,4 @@
+LIBRARY	"D3Module"
+	EXPORTS
+		StartD3 @1
+		CheckKey @2

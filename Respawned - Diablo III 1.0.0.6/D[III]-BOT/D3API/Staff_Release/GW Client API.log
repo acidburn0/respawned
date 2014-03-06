@@ -1,0 +1,191 @@
+﻿La génération a démarré 2013-08-25 23:45:27.
+     1>Projet "F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\D3API\GW Client API.vcxproj" sur le nœud 3 (Build cible(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Ot /Oy- /GL /D _WINDLL /D _MBCS /Gm /EHsc /MD /GS /Gy /Qpar- /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Staff_Release\\" /Fd"Staff_Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -g D3Module.cpp
+     1>cl : Ligne de commande warning D9002: option '-g' inconnue ignorée
+         D3Module.cpp
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(219): warning C4018: '<' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(231): warning C4018: '<' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(232): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(233): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(245): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : voir la déclaration de 'strncpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(264): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(275): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(276): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(300): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(496): warning C4018: '>' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(580): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(641): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(804): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(823): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(862): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(960): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1015): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1030): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1034): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : voir la déclaration de 'strncpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1039): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : voir la déclaration de 'strtok'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1043): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : voir la déclaration de 'sscanf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1045): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : voir la déclaration de 'strtok'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1165): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1276): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1288): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1289): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1296): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1304): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : voir la déclaration de 'strncpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1358): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1374): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1387): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1529): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1554): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1586): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1607): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1611): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1646): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1649): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1653): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : voir la déclaration de 'strtok'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1658): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : voir la déclaration de 'strtok'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1662): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : voir la déclaration de 'sscanf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1664): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : voir la déclaration de 'sscanf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1668): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1678): warning C4804: '<=' : utilisation risquée du type 'bool' dans l'opération
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1687): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : voir la déclaration de 'strtok'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1704): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1763): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1789): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1818): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1851): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1931): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(1993): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(2017): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\D3Module.h(2163): warning C4244: '=' : conversion de 'DWORD' en 'float', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(136): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(201): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(212): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(222): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(228): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(229): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(231): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(233): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(234): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(237): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(282): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(284): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(291): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(320): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(329): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(338): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(345): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(367): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(384): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(401): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(428): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(429): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(430): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(447): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(465): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(482): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(486): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(535): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>f:\dropbox\respawn\dev\source\respawned3\trunk\respawned - diablo iii 1.0.0.6\d[iii]-bot\d3api\NamedPipe.h(568): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>D3Module.cpp(9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>D3Module.cpp(10): warning C4244: 'return' : conversion de 'long' en 'char', perte possible de données
+     1>D3Module.cpp(107): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : voir la déclaration de 'strncpy'
+     1>D3Module.cpp(135): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>D3Module.cpp(158): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>D3Module.cpp(159): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>D3Module.cpp(161): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>D3Module.cpp(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>D3Module.cpp(168): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>D3Module.cpp(169): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>D3Module.cpp(180): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+     1>D3Module.cpp(187): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>D3Module.cpp(188): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>D3Module.cpp(189): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>D3Module.cpp(201): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>D3Module.cpp(202): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>D3Module.cpp(203): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : voir la déclaration de 'strcat'
+     1>D3Module.cpp(311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : voir la déclaration de 'sprintf'
+     1>D3Module.cpp(372): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(302) : voir la déclaration de 'access'
+     1>D3Module.cpp(378): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+     1>D3Module.cpp(390): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>D3Module.cpp(391): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : voir la déclaration de 'strncpy'
+     1>D3Module.cpp(477): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Resources\D3Api.dll" /NOLOGO version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"D3Module.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Resources\D3Api.lib" /MACHINE:X86 /SAFESEH /DLL Staff_Release\D3Module.obj
+            Création de la bibliothèque ..\Resources\D3Api.lib et de l'objet ..\Resources\D3Api.exp
+     1>D3Api.exp : warning LNK4070: la directive /OUT:D3Module.dll dans .EXP est différente du nom du fichier de sortie '..\Resources\D3Api.dll' ; directive ignorée
+         Génération de code en cours
+         Fin de la génération du code
+     1>D3Api.exp : warning LNK4070: la directive /OUT:D3Module.dll dans .EXP est différente du nom du fichier de sortie '..\Resources\D3Api.dll' ; directive ignorée
+         GW Client API.vcxproj -> F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\D3API\..\Resources\D3Api.dll
+     1>Génération du projet "F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\D3API\GW Client API.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.92

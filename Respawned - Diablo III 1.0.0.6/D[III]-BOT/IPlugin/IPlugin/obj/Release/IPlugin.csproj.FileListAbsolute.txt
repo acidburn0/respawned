@@ -1,0 +1,5 @@
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\Release\IPlugin.dll
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\Release\IPlugin.pdb
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\IPlugin\IPlugin\obj\Release\IPlugin.csprojResolveAssemblyReference.cache
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\IPlugin\IPlugin\obj\Release\IPlugin.dll
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\IPlugin\IPlugin\obj\Release\IPlugin.pdb

@@ -1,0 +1,5 @@
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\Release\DIIIBData\Plugins\DemoPlugin.dll
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\Release\DIIIBData\Plugins\DemoPlugin.pdb
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\DemoPlugin\obj\Release\RadarPlugin.csprojResolveAssemblyReference.cache
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\DemoPlugin\obj\Release\DemoPlugin.dll
+F:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\DemoPlugin\obj\Release\DemoPlugin.pdb

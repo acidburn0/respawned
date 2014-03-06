@@ -1,0 +1,73 @@
+[2013-11-18 12:22:35] [Program error] System.Net.WebException: Impossible de se connecter au serveur distant ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu 192.34.63.61:80
+   à System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:52:48] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:53:04] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:53:16] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:57:32] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:57:49] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:58:19] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:58:34] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:58:52] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:59:01] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:59:16] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 14:59:32] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 15:00:49] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55
+[2013-11-25 15:01:04] [Program error] System.Net.WebException: Le serveur distant a retourné une erreur : (404) Introuvable.
+   à System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   à System.Net.WebClient.DownloadString(Uri address)
+   à System.Net.WebClient.DownloadString(String address)
+   à Respawned.Program.Main() dans f:\Dropbox\Respawn\Dev\Source\respawned3\trunk\Respawned - Diablo III 1.0.0.6\D[III]-BOT\Program.cs:ligne 55

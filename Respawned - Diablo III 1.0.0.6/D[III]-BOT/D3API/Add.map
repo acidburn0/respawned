@@ -1,0 +1,1110 @@
+ GWCModule
+
+ Timestamp is 4f3f12e6 (Sat Feb 18 03:54:30 2012)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010000H .textbss                DATA
+ 0002:00000000 0001c677H .text                   CODE
+ 0002:0001c680 00001ff7H .text$x                 CODE
+ 0002:0001e680 000011bfH .text$yc                CODE
+ 0002:0001f840 0000109cH .text$yd                CODE
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000118H .CRT$XCU                DATA
+ 0003:0000021c 00000104H .CRT$XCZ                DATA
+ 0003:00000320 00000104H .CRT$XIA                DATA
+ 0003:00000424 00000104H .CRT$XIAA               DATA
+ 0003:00000528 00000104H .CRT$XIC                DATA
+ 0003:0000062c 00000104H .CRT$XIZ                DATA
+ 0003:00000730 00002531H .rdata                  DATA
+ 0003:00002c64 0000018dH .rdata$debug            DATA
+ 0003:00002df4 000001f7H .rdata$r                DATA
+ 0003:00002fec 00000104H .rtc$IAA                DATA
+ 0003:000030f0 00000104H .rtc$IMZ                DATA
+ 0003:000031f4 00000104H .rtc$IZZ                DATA
+ 0003:000032f8 00000104H .rtc$TAA                DATA
+ 0003:000033fc 00000104H .rtc$TMZ                DATA
+ 0003:00003500 00000104H .rtc$TZZ                DATA
+ 0003:00003608 000011beH .xdata$x                DATA
+ 0003:000047d0 00000175H .edata                  DATA
+ 0004:00000000 000001a3H .data                   DATA
+ 0004:000001a8 00000638H .bss                    DATA
+ 0005:00000000 00000050H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 000002ecH .idata$4                DATA
+ 0005:00000350 000002ecH .idata$5                DATA
+ 0005:0000063c 00000b05H .idata$6                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       __enc$textbss$begin        10001000     <linker-defined>
+ 0001:00010000       __enc$textbss$end          10011000     <linker-defined>
+ 0002:00001400       ?NearestGoldItem@@YAHH@Z   10012400 f   GWCModule.obj
+ 0002:00001630       ?ItemArray@CSectionA@@QAEPAPAUItem@@XZ 10012630 f i GWCModule.obj
+ 0002:000016a0       ?BasePointer@CSectionA@@QAEKXZ 100126a0 f i GWCModule.obj
+ 0002:000016e0       ?GetItemPtrByAgentId@ItemManager@@QAEPAUItem@@J@Z 100126e0 f i GWCModule.obj
+ 0002:000017a0       ?ItemArraySize@CSectionA@@QAEJXZ 100127a0 f i GWCModule.obj
+ 0002:00001810       ?GetAgentName@@YAXH@Z      10012810 f   GWCModule.obj
+ 0002:00001990       ??AAgentArray@@QAEPAUAgent@@I@Z 10012990 f i GWCModule.obj
+ 0002:000019f0       ?GetAgent@AgentArray@@QAEPAUAgent@@I@Z 100129f0 f i GWCModule.obj
+ 0002:00001a80       ?Reload@AgentArray@@QAEXXZ 10012a80 f i GWCModule.obj
+ 0002:00001ad0       ?NearestItemByModellID@@YAHHH@Z 10012ad0 f   GWCModule.obj
+ 0002:00001d00       ?GetNearestFriend@@YAJXZ   10012d00 f   GWCModule.obj
+ 0002:00002030       ?pow@@YAMMH@Z              10013030 f i GWCModule.obj
+ 0002:00002090       ?GetNearestEnemy@@YAJXZ    10013090 f   GWCModule.obj
+ 0002:000023c0       ?GetAVGTeamCoords@@YAMH@Z  100133c0 f   GWCModule.obj
+ 0002:00002670       ?GetNearestNPCToCoords@@YAJMM@Z 10013670 f   GWCModule.obj
+ 0002:000028e0       ?GetNearestAliveEnemy@@YAJXZ 100138e0 f   GWCModule.obj
+ 0002:00002b50       ?GetNearestEnemyAgentToCoords@@YAJMM@Z 10013b50 f   GWCModule.obj
+ 0002:00002db0       ?GetDeadAgents@@YAJXZ      10013db0 f   GWCModule.obj
+ 0002:00002fc0       ?GetNearestEnemyInAOE_PVE@@YAJJJ@Z 10013fc0 f   GWCModule.obj
+ 0002:000032a0       ?GetNearestPrimClassInAOE_PVP@@YAJJHJ@Z 100142a0 f   GWCModule.obj
+ 0002:00003560       ?GetNearestEnemyInAOE_PVP@@YAJJJ@Z 10014560 f   GWCModule.obj
+ 0002:000037f0       ?GetNearestAgentToCoords@@YAJMM@Z 100147f0 f   GWCModule.obj
+ 0002:00003a40       ?GetPseudoDistFromAgentToAgent@@YAMJJ@Z 10014a40 f   GWCModule.obj
+ 0002:00003b90       ?GetNearestItemToAgent@@YAJJ@Z 10014b90 f   GWCModule.obj
+ 0002:00003dc0       ?GetDistanceFromAgentToAgent@@YAMJJ@Z 10014dc0 f   GWCModule.obj
+ 0002:00003f20       ?sqrt@@YAMM@Z              10014f20 f i GWCModule.obj
+ 0002:00003f80       _sqrtf                     10014f80 f i GWCModule.obj
+ 0002:00003ff0       ?GetMapRegionByID@@YAPADH@Z 10014ff0 f   GWCModule.obj
+ 0002:000040c0       ?GetMapLanguageByID@@YAPADH@Z 100150c0 f   GWCModule.obj
+ 0002:000041b0       ?UseSkill@@YAXJJ@Z         100151b0 f   GWCModule.obj
+ 0002:000042d0       ?GetPlayerSkillbar@SkillbarHandler@@QAEPAUSkillbar@@XZ 100152d0 f i GWCModule.obj
+ 0002:00004330       ?GetSkillbar@SkillbarHandler@@AAEPAUSkillbar@@I@Z 10015330 f i GWCModule.obj
+ 0002:00004400       ?GetArraySize@SkillbarHandler@@AAEHXZ 10015400 f i GWCModule.obj
+ 0002:00004470       ?SendPacketQueueThread@@YAXXZ 10015470 f   GWCModule.obj
+ 0002:00004670       ?LoggedIn@CSectionA@@QAEJXZ 10015670 f i GWCModule.obj
+ 0002:000046b0       ?Connection@CSectionA@@QAEJXZ 100156b0 f i GWCModule.obj
+ 0002:000046f0       ?GetTimeStamp@@YAJXZ       100156f0 f   GWCModule.obj
+ 0002:00004750       ?TradePlayer@@YAXJ@Z       10015750 f   GWCModule.obj
+ 0002:000048e0       ??0CPacket@@QAE@PAEK@Z     100158e0 f i GWCModule.obj
+ 0002:00004950       ?NewPacket@CPacket@@QAEXGG@Z 10015950 f i GWCModule.obj
+ 0002:000049d0       ?SubmitOffer@@YAXJ@Z       100159d0 f   GWCModule.obj
+ 0002:00004b60       ?ChangeOffer@@YAXXZ        10015b60 f   GWCModule.obj
+ 0002:00004ce0       ?OfferItem@@YAXJJ@Z        10015ce0 f   GWCModule.obj
+ 0002:00004e80       ?CancelTrade@@YAXXZ        10015e80 f   GWCModule.obj
+ 0002:00005000       ?AcceptTrade@@YAXXZ        10016000 f   GWCModule.obj
+ 0002:00005180       ?SendChat@@YAXDPAD@Z       10016180 f   GWCModule.obj
+ 0002:00005330       ?SetUString@CPacket@@QAEXGPAD@Z 10016330 f i GWCModule.obj
+ 0002:000053d0       ?ReturnToOutpost@@YAXXZ    100163d0 f   GWCModule.obj
+ 0002:00005550       ?DialogHook@@YAXXZ         10016550 f   GWCModule.obj
+ 0002:00005570       ?GroupSizeHook@@YAXXZ      10016570 f   GWCModule.obj
+ 0002:00005590       ?GoAgent@@YAXJ@Z           10016590 f   GWCModule.obj
+ 0002:00005600       ?GoSignpost@@YAXJ@Z        10016600 f   GWCModule.obj
+ 0002:000057c0       ?TravelToPack@@YAXHHHH@Z   100167c0 f   GWCModule.obj
+ 0002:000059f0       ?EnterGildenKampf@@YAXXZ   100169f0 f   GWCModule.obj
+ 0002:00005b70       ?EnterGvGButton@@YAXXZ     10016b70 f   GWCModule.obj
+ 0002:00005d30       ?LeaveGroup@@YAXXZ         10016d30 f   GWCModule.obj
+ 0002:00005ee0       ?TravelBackExploit2@@YAXXZ 10016ee0 f   GWCModule.obj
+ 0002:00006060       ?EnterChallenge@@YAXXZ     10017060 f   GWCModule.obj
+ 0002:00006210       ?CancelGvG@@YAXXZ          10017210 f   GWCModule.obj
+ 0002:00006390       ?SwitchModePack@@YAXJ@Z    10017390 f   GWCModule.obj
+ 0002:00006570       ?MoveToPack@@YAXMMM@Z      10017570 f   GWCModule.obj
+ 0002:00006760       ?AcceptGroup@@YAXJ@Z       10017760 f   GWCModule.obj
+ 0002:000068f0       ?CancelGroup@@YAXJ@Z       100178f0 f   GWCModule.obj
+ 0002:00006a80       ?TargetNearestItem@@YAXXZ  10017a80 f   GWCModule.obj
+ 0002:00006ae0       ?DonateFaction@@YAXJ@Z     10017ae0 f   GWCModule.obj
+ 0002:00006ce0       ?ChangeGold@@YAXJJ@Z       10017ce0 f   GWCModule.obj
+ 0002:00006e80       ?AddHero@@YAXJ@Z           10017e80 f   GWCModule.obj
+ 0002:00007010       ?KickHero@@YAXJ@Z          10018010 f   GWCModule.obj
+ 0002:000071a0       ?InviteNPCPack@@YAXJ@Z     100181a0 f   GWCModule.obj
+ 0002:00007350       ?InvitePlayerByNumber@@YAXJ@Z 10018350 f   GWCModule.obj
+ 0002:00007500       ?KickNpc@@YAXJ@Z           10018500 f   GWCModule.obj
+ 0002:000076b0       ?PickUpItem@@YAXJ@Z        100186b0 f   GWCModule.obj
+ 0002:00007870       ?GoNPC@@YAXJ@Z             10018870 f   GWCModule.obj
+ 0002:00007a10       ?TravelGH@@YAXKKKK@Z       10018a10 f   GWCModule.obj
+ 0002:00007cc0       ?TravelGH@@YAXEEEEEEEEEEEEEEEE@Z 10018cc0 f   GWCModule.obj
+ 0002:00007fa0       ?LeaveGroup2@@YAXEEEE@Z    10018fa0 f   GWCModule.obj
+ 0002:00008190       ?LeaveGH@@YAXXZ            10019190 f   GWCModule.obj
+ 0002:00008340       ?DialogPack@@YAXJ@Z        10019340 f   GWCModule.obj
+ 0002:000084f0       ?SkipVideo@@YAXXZ          100194f0 f   GWCModule.obj
+ 0002:00008670       ?OpenChestPak@@YAXXZ       10019670 f   GWCModule.obj
+ 0002:00008820       ?EquipItem@@YAXK@Z         10019820 f   GWCModule.obj
+ 0002:000089d0       ?UseItem@@YAXK@Z           100199d0 f   GWCModule.obj
+ 0002:00008b80       ?IdentifyItemPack@@YAXJJ@Z 10019b80 f   GWCModule.obj
+ 0002:00008d40       ?JMP@@YAXPAE0@Z            10019d40 f   GWCModule.obj
+ 0002:00008e30       ?PacketLoggingHook@@YAXXZ  10019e30 f   GWCModule.obj
+ 0002:00008e80       ?SToC@@YAXXZ               10019e80 f   GWCModule.obj
+ 0002:00008ef0       ?CToS@@YAXXZ               10019ef0 f   GWCModule.obj
+ 0002:00008f10       ?GetItemValue@@YAJJ@Z      10019f10 f   GWCModule.obj
+ 0002:00008f70       ?SellItem@@YAXJ@Z          10019f70 f   GWCModule.obj
+ 0002:00009040       ?GetItemPtr@ItemManager@@QAEPAUItem@@J@Z 1001a040 f i GWCModule.obj
+ 0002:000090d0       ?TraderSell@@YA_NXZ        1001a0d0 f   GWCModule.obj
+ 0002:000091b0       ?BuyItem@@YAXJJJ@Z         1001a1b0 f   GWCModule.obj
+ 0002:00009250       ?AttackTarget@@YAXJ@Z      1001a250 f   GWCModule.obj
+ 0002:000093f0       ?MoveItem@@YAXJJJ@Z        1001a3f0 f   GWCModule.obj
+ 0002:000095e0       ?GetBagPtr@ItemManager@@QAEPAUBag@@H@Z 1001a5e0 f i GWCModule.obj
+ 0002:00009670       ?BagArrayPointer@CSectionA@@QAEPAPAUBag@@XZ 1001a670 f i GWCModule.obj
+ 0002:000096e0       ?EngineHook@@YAXXZ         1001a6e0 f   GWCModule.obj
+ 0002:00009700       ?CleanUpMem@@YGKPAX@Z      1001a700 f   GWCModule.obj
+ 0002:000097e0       ?SetGraphicHookCode@@YAXH@Z 1001a7e0 f   GWCModule.obj
+ 0002:00009a40       ?ShowAction@@YAXH@Z        1001aa40 f   GWCModule.obj
+ 0002:00009cf0       ?Name@CSectionA@@QAEPADXZ  1001acf0 f i GWCModule.obj
+ 0002:00009d50       ?wcharToChar@CSectionA@@QAEPADPA_W@Z 1001ad50 f i GWCModule.obj
+ 0002:00009e40       ?Email@CSectionA@@QAEPADXZ 1001ae40 f i GWCModule.obj
+ 0002:00009ea0       ?Debug@@YAXXZ              1001aea0 f   GWCModule.obj
+ 0002:0000a5a0       ?TraderCostHook@@YAXXZ     1001b5a0 f   GWCModule.obj
+ 0002:0000a5c0       ?RequestQuoteSell@@YAXJ@Z  1001b5c0 f   GWCModule.obj
+ 0002:0000a650       ?RequestQuote@@YAXJ@Z      1001b650 f   GWCModule.obj
+ 0002:0000a6e0       ?TraderBuy@@YA_NXZ         1001b6e0 f   GWCModule.obj
+ 0002:0000a7c0       ?OpenStorage@@YAXXZ        1001b7c0 f   GWCModule.obj
+ 0002:0000a850       ?CancelQuest@@YAXE@Z       1001b850 f   GWCModule.obj
+ 0002:0000aa20       ?PlayerInfo@@YAXXZ         1001ba20 f   GWCModule.obj
+ 0002:0000b190       ?MapId@CSectionA@@QAEJXZ   1001c190 f i GWCModule.obj
+ 0002:0000b1d0       ?MatchStatus@CSectionA@@QAEJXZ 1001c1d0 f i GWCModule.obj
+ 0002:0000b210       ?CurrentBalthFaction@CSectionA@@QAEJXZ 1001c210 f i GWCModule.obj
+ 0002:0000b280       ?MaxBalthFaction@CSectionA@@QAEJXZ 1001c280 f i GWCModule.obj
+ 0002:0000b2f0       ?CurrentKurzickFaction@CSectionA@@QAEJXZ 1001c2f0 f i GWCModule.obj
+ 0002:0000b360       ?MaxKurzickFaction@CSectionA@@QAEJXZ 1001c360 f i GWCModule.obj
+ 0002:0000b3d0       ?MoneySelf@CSectionA@@QAEJXZ 1001c3d0 f i GWCModule.obj
+ 0002:0000b440       ?MoneyStorage@CSectionA@@QAEJXZ 1001c440 f i GWCModule.obj
+ 0002:0000b4b0       ?ActiveQuest@CSectionA@@QAEJXZ 1001c4b0 f i GWCModule.obj
+ 0002:0000b520       ?CheckQuestReturnLogstate@CSectionA@@QAEJE@Z 1001c520 f i GWCModule.obj
+ 0002:0000b5e0       ?QuestLogPointer@CSectionA@@QAEPAUQuest@@XZ 1001c5e0 f i GWCModule.obj
+ 0002:0000b650       ?QuestLogSize@CSectionA@@QAEJXZ 1001c650 f i GWCModule.obj
+ 0002:0000b6c0       ?GetBagItems@ItemManager@@QAEJH@Z 1001c6c0 f i GWCModule.obj
+ 0002:0000b730       ?BagSize@ItemManager@@QAEHH@Z 1001c730 f i GWCModule.obj
+ 0002:0000b7a0       ?GetItemModelId@ItemManager@@QAEJHH@Z 1001c7a0 f i GWCModule.obj
+ 0002:0000b820       ?GetItemQuantityByModelID@ItemManager@@QAEJJ@Z 1001c820 f i GWCModule.obj
+ 0002:0000b930       ?GetItemPtr@ItemManager@@QAEPAUItem@@HH@Z 1001c930 f i GWCModule.obj
+ 0002:0000b9e0       ?GetQuest@@YAXE@Z          1001c9e0 f   GWCModule.obj
+ 0002:0000bbb0       ?AfterPickUp@@YAXE@Z       1001cbb0 f   GWCModule.obj
+ 0002:0000bd40       ?SilberMuenzen@@YAXXZ      1001cd40 f   GWCModule.obj
+ 0002:0000bef0       ?QuestReward@@YAXE@Z       1001cef0 f   GWCModule.obj
+ 0002:0000c0c0       ?HotKeys@@YAXXZ            1001d0c0 f   GWCModule.obj
+ 0002:0000c5f0       ?GetNextItem@@YAJK@Z       1001d5f0 f   GWCModule.obj
+ 0002:0000c7a0       ?TLSHandle@@YAXXZ          1001d7a0 f   GWCModule.obj
+ 0002:0000c7c0       ?InstanceThread@pipe@@SAXXZ 1001d7c0 f i GWCModule.obj
+ 0002:0000e780       ?Ping@CSectionA@@QAEJXZ    1001f780 f i GWCModule.obj
+ 0002:0000e7c0       ?Dead@CSectionA@@QAEJXZ    1001f7c0 f i GWCModule.obj
+ 0002:0000e800       ?CurrentReichFaction@CSectionA@@QAEJXZ 1001f800 f i GWCModule.obj
+ 0002:0000e870       ?MaxReichFaction@CSectionA@@QAEJXZ 1001f870 f i GWCModule.obj
+ 0002:0000e8e0       ?CurrentLuxonFaction@CSectionA@@QAEJXZ 1001f8e0 f i GWCModule.obj
+ 0002:0000e950       ?MaxLuxonFaction@CSectionA@@QAEJXZ 1001f950 f i GWCModule.obj
+ 0002:0000e9c0       ?TitleTreasure@CSectionA@@QAEJXZ 1001f9c0 f i GWCModule.obj
+ 0002:0000ea30       ?TitleLucky@CSectionA@@QAEJXZ 1001fa30 f i GWCModule.obj
+ 0002:0000eaa0       ?TitleUnlucky@CSectionA@@QAEJXZ 1001faa0 f i GWCModule.obj
+ 0002:0000eb10       ?TitleWisdom@CSectionA@@QAEJXZ 1001fb10 f i GWCModule.obj
+ 0002:0000eb80       ?TitleDrunkard@CSectionA@@QAEJXZ 1001fb80 f i GWCModule.obj
+ 0002:0000ebf0       ?TitleSunspear@CSectionA@@QAEJXZ 1001fbf0 f i GWCModule.obj
+ 0002:0000ec60       ?TitleVanguard@CSectionA@@QAEJXZ 1001fc60 f i GWCModule.obj
+ 0002:0000ecd0       ?TitleNorn@CSectionA@@QAEJXZ 1001fcd0 f i GWCModule.obj
+ 0002:0000ed40       ?TitleAsura@CSectionA@@QAEJXZ 1001fd40 f i GWCModule.obj
+ 0002:0000edb0       ?TitleDeldrimor@CSectionA@@QAEJXZ 1001fdb0 f i GWCModule.obj
+ 0002:0000ee20       ?TitleNorthMastery@CSectionA@@QAEJXZ 1001fe20 f i GWCModule.obj
+ 0002:0000ee90       ?TitleLightbringer@CSectionA@@QAEJXZ 1001fe90 f i GWCModule.obj
+ 0002:0000ef00       ?TitleSweet@CSectionA@@QAEJXZ 1001ff00 f i GWCModule.obj
+ 0002:0000ef70       ?TitleParty@CSectionA@@QAEJXZ 1001ff70 f i GWCModule.obj
+ 0002:0000efe0       ?TitleCommander@CSectionA@@QAEJXZ 1001ffe0 f i GWCModule.obj
+ 0002:0000f050       ?TitleTrackLuxon@CSectionA@@QAEJXZ 10020050 f i GWCModule.obj
+ 0002:0000f0c0       ?TitleTrackKurzick@CSectionA@@QAEJXZ 100200c0 f i GWCModule.obj
+ 0002:0000f130       ?TitleGamer@CSectionA@@QAEJXZ 10020130 f i GWCModule.obj
+ 0002:0000f1a0       ?Experience@CSectionA@@QAEJXZ 100201a0 f i GWCModule.obj
+ 0002:0000f210       ?MerchantItems@CSectionA@@QAEKXZ 10020210 f i GWCModule.obj
+ 0002:0000f280       ?MerchantItemsSize@CSectionA@@QAEKXZ 10020280 f i GWCModule.obj
+ 0002:0000f2f0       ?GetItemId@ItemManager@@QAEJHH@Z 100202f0 f i GWCModule.obj
+ 0002:0000f370       ?GetRarity@ItemManager@@QAEJHH@Z 10020370 f i GWCModule.obj
+ 0002:0000f3f0       ?GetItemModelId@ItemManager@@QAEJJ@Z 100203f0 f i GWCModule.obj
+ 0002:0000f460       ?FindIdKit@ItemManager@@QAEJXZ 10020460 f i GWCModule.obj
+ 0002:0000f570       ?GetItemQuantityByID@ItemManager@@QAEJJ@Z 10020570 f i GWCModule.obj
+ 0002:0000f670       ?IdentBag@ItemManager@@QAEJJ@Z 10020670 f i GWCModule.obj
+ 0002:0000f760       ?IdentItemBySlot@ItemManager@@QAEJJJ@Z 10020760 f i GWCModule.obj
+ 0002:0000f800       ?GetItemByModelId@ItemManager@@QAEJJJ@Z 10020800 f i GWCModule.obj
+ 0002:0000f900       ?GetDyePositionByColor@ItemManager@@QAEJFJJ@Z 10020900 f i GWCModule.obj
+ 0002:0000fa30       ?GetItemPositionByModell@ItemManager@@QAEJJJJ@Z 10020a30 f i GWCModule.obj
+ 0002:0000fb40       ?GetDyeIdByColor@ItemManager@@QAEJFJ@Z 10020b40 f i GWCModule.obj
+ 0002:0000fc50       ?CloakModule@@YAIPAUHINSTANCE__@@@Z 10020c50 f   GWCModule.obj
+ 0002:0000fe80       ?Searching@@YAXXZ          10020e80 f   GWCModule.obj
+ 0002:00012a60       _InjectHiddenDll@8         10023a60 f   GWCModule.obj
+ 0002:00012c40       _GWPatch@4                 10023c40 f   GWCModule.obj
+ 0002:000130b0       ?PauseProcess@@YAXK_N@Z    100240b0 f   GWCModule.obj
+ 0002:00013220       _DllMain@12                10024220 f   GWCModule.obj
+ 0002:000132e0       ?empty@?$queue@PAVCPacket@@V?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@@std@@QBE_NXZ 100242e0 f i GWCModule.obj
+ 0002:00013330       ?front@?$queue@PAVCPacket@@V?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@@std@@QAEAAPAVCPacket@@XZ 10024330 f i GWCModule.obj
+ 0002:00013380       ?push@?$queue@PAVCPacket@@V?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@@std@@QAEXABQAVCPacket@@@Z 10024380 f i GWCModule.obj
+ 0002:000133e0       ?pop@?$queue@PAVCPacket@@V?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@@std@@QAEXXZ 100243e0 f i GWCModule.obj
+ 0002:00013430       ?empty@?$queue@PAXV?$deque@PAXV?$allocator@PAX@std@@@std@@@std@@QBE_NXZ 10024430 f i GWCModule.obj
+ 0002:00013480       ?front@?$queue@PAXV?$deque@PAXV?$allocator@PAX@std@@@std@@@std@@QAEAAPAXXZ 10024480 f i GWCModule.obj
+ 0002:000134d0       ?pop@?$queue@PAXV?$deque@PAXV?$allocator@PAX@std@@@std@@@std@@QAEXXZ 100244d0 f i GWCModule.obj
+ 0002:00013520       ?empty@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QBE_NXZ 10024520 f i GWCModule.obj
+ 0002:00013570       ?front@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAEAAPAVCPacket@@XZ 10024570 f i GWCModule.obj
+ 0002:00013650       ?pop_front@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAEXXZ 10024650 f i GWCModule.obj
+ 0002:000137b0       ?push_back@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAEXABQAVCPacket@@@Z 100247b0 f i GWCModule.obj
+ 0002:00013910       ?empty@?$deque@PAXV?$allocator@PAX@std@@@std@@QBE_NXZ 10024910 f i GWCModule.obj
+ 0002:00013960       ?front@?$deque@PAXV?$allocator@PAX@std@@@std@@QAEAAPAXXZ 10024960 f i GWCModule.obj
+ 0002:00013a40       ?pop_front@?$deque@PAXV?$allocator@PAX@std@@@std@@QAEXXZ 10024a40 f i GWCModule.obj
+ 0002:00013ba0       ??1?$_Deque_iterator@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAE@XZ 10024ba0 f i GWCModule.obj
+ 0002:00013bf0       ??1?$_Deque_iterator@PAXV?$allocator@PAX@std@@@std@@QAE@XZ 10024bf0 f i GWCModule.obj
+ 0002:00013c40       ??1?$_Deque_const_iterator@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAE@XZ 10024c40 f i GWCModule.obj
+ 0002:00013c90       ??1_Iterator_base12@std@@QAE@XZ 10024c90 f i GWCModule.obj
+ 0002:00013d90       ?_Orphan_me@_Iterator_base12@std@@QAEXXZ 10024d90 f i GWCModule.obj
+ 0002:00013e60       ??1?$_Deque_const_iterator@PAXV?$allocator@PAX@std@@@std@@QAE@XZ 10024e60 f i GWCModule.obj
+ 0002:00013eb0       ?begin@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAE?AV?$_Deque_iterator@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@2@XZ 10024eb0 f i GWCModule.obj
+ 0002:00013f40       ?_Growmap@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@IAEXI@Z 10024f40 f i GWCModule.obj
+ 0002:00014210       ?_Orphan_off@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@IBEXI@Z 10025210 f i GWCModule.obj
+ 0002:000143e0       ?_Clrcont@_Iterator_base12@std@@QAEXXZ 100253e0 f i GWCModule.obj
+ 0002:00014420       ?_Getpnext@_Iterator_base12@std@@QAEPAPAU12@XZ 10025420 f i GWCModule.obj
+ 0002:00014460       ?allocate@?$allocator@PAVCPacket@@@std@@QAEPAPAVCPacket@@I@Z 10025460 f i GWCModule.obj
+ 0002:000144c0       ?deallocate@?$allocator@PAPAVCPacket@@@std@@QAEXPAPAPAVCPacket@@I@Z 100254c0 f i GWCModule.obj
+ 0002:00014520       ?begin@?$deque@PAXV?$allocator@PAX@std@@@std@@QAE?AV?$_Deque_iterator@PAXV?$allocator@PAX@std@@@2@XZ 10025520 f i GWCModule.obj
+ 0002:000145b0       ?_Orphan_off@?$deque@PAXV?$allocator@PAX@std@@@std@@IBEXI@Z 100255b0 f i GWCModule.obj
+ 0002:00014780       ??D?$_Deque_iterator@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QBEAAPAVCPacket@@XZ 10025780 f i GWCModule.obj
+ 0002:000147d0       ??D?$_Deque_iterator@PAXV?$allocator@PAX@std@@@std@@QBEAAPAXXZ 100257d0 f i GWCModule.obj
+ 0002:00014820       ?max_size@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QBEIXZ 10025820 f i GWCModule.obj
+ 0002:00014880       ?_Xlen@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@IBEXXZ 10025880 f i GWCModule.obj
+ 0002:000148e0       ?allocate@?$allocator@PAPAVCPacket@@@std@@QAEPAPAPAVCPacket@@I@Z 100258e0 f i GWCModule.obj
+ 0002:00014940       ??0?$_Deque_iterator@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAE@IPBU_Container_base12@1@@Z 10025940 f i GWCModule.obj
+ 0002:000149a0       ??D?$_Deque_const_iterator@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QBEABQAVCPacket@@XZ 100259a0 f i GWCModule.obj
+ 0002:00014b30       ?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ 10025b30 f i GWCModule.obj
+ 0002:00014ba0       ??0?$_Deque_iterator@PAXV?$allocator@PAX@std@@@std@@QAE@IPBU_Container_base12@1@@Z 10025ba0 f i GWCModule.obj
+ 0002:00014c00       ??D?$_Deque_const_iterator@PAXV?$allocator@PAX@std@@@std@@QBEABQAXXZ 10025c00 f i GWCModule.obj
+ 0002:00014d90       ?max_size@?$allocator@PAVCPacket@@@std@@QBEIXZ 10025d90 f i GWCModule.obj
+ 0002:00014e00       ??0?$_Deque_const_iterator@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAE@IPBU_Container_base12@1@@Z 10025e00 f i GWCModule.obj
+ 0002:00014ec0       ??0_Iterator_base12@std@@QAE@XZ 10025ec0 f i GWCModule.obj
+ 0002:00014f10       ??0?$_Deque_const_iterator@PAXV?$allocator@PAX@std@@@std@@QAE@IPBU_Container_base12@1@@Z 10025f10 f i GWCModule.obj
+ 0002:00014fd0       ?_Setcont@?$_Deque_const_iterator@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAEXPBV?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@2@@Z 10025fd0 f i GWCModule.obj
+ 0002:00015030       ?_Adopt@_Iterator_base12@std@@QAEXPBU_Container_base12@2@@Z 10026030 f i GWCModule.obj
+ 0002:00015180       ?_Setcont@?$_Deque_const_iterator@PAXV?$allocator@PAX@std@@@std@@QAEXPBV?$deque@PAXV?$allocator@PAX@std@@@2@@Z 10026180 f i GWCModule.obj
+ 0002:000151e0       ??$_Pow_int@M@@YAMMH@Z     100261e0 f i GWCModule.obj
+ 0002:000152a0       ??$ReadPtrChain@K@@YAKKJJJJ@Z 100262a0 f i GWCModule.obj
+ 0002:00015370       ??$ReadPtrChain@J@@YAJKJJJJ@Z 10026370 f i GWCModule.obj
+ 0002:00015440       ??$ReadPtrChain@PAUQuest@@@@YAPAUQuest@@KJJJJ@Z 10026440 f i GWCModule.obj
+ 0002:00015510       ??$ReadPtrChain@PAPAUBag@@@@YAPAPAUBag@@KJJJJ@Z 10026510 f i GWCModule.obj
+ 0002:000155e0       ??$ReadPtrChain@PAPAUItem@@@@YAPAPAUItem@@KJJJJ@Z 100265e0 f i GWCModule.obj
+ 0002:000156b0       ??$ReadPtrChain@PA_W@@YAPA_WKJJJJ@Z 100266b0 f i GWCModule.obj
+ 0002:00015780       ??$ReadPtrChain@H@@YAHKJJJJ@Z 10026780 f i GWCModule.obj
+ 0002:00015850       ??$ReadPtrChain@PAUSkillbar@@@@YAPAUSkillbar@@KJJJJ@Z 10026850 f i GWCModule.obj
+ 0002:00015920       ??$Set@G@CPacket@@QAEXGG@Z 10026920 f i GWCModule.obj
+ 0002:00015970       ??$Set@K@CPacket@@QAEXGK@Z 10026970 f i GWCModule.obj
+ 0002:000159c0       ??$Set@J@CPacket@@QAEXGJ@Z 100269c0 f i GWCModule.obj
+ 0002:00015a10       ??$Set@E@CPacket@@QAEXGE@Z 10026a10 f i GWCModule.obj
+ 0002:00015a60       ??$Set@M@CPacket@@QAEXGM@Z 10026a60 f i GWCModule.obj
+ 0002:00015ab0       ??$sprintf_s@$0GE@@@YAHAAY0GE@DPBDZZ 10026ab0 f i GWCModule.obj
+ 0002:00015b20       ??$_Dest_val@V?$allocator@PAVCPacket@@@std@@PAVCPacket@@@std@@YAXAAV?$allocator@PAVCPacket@@@0@PAPAVCPacket@@@Z 10026b20 f i GWCModule.obj
+ 0002:00015b70       ??$_Cons_val@V?$allocator@PAVCPacket@@@std@@PAVCPacket@@ABQAV3@@std@@YAXAAV?$allocator@PAVCPacket@@@0@PAPAVCPacket@@ABQAV2@@Z 10026b70 f i GWCModule.obj
+ 0002:00015bd0       ??$_Dest_val@V?$allocator@PAX@std@@PAX@std@@YAXAAV?$allocator@PAX@0@PAPAX@Z 10026bd0 f i GWCModule.obj
+ 0002:00015c20       ??$_Uninitialized_copy@PAPAPAVCPacket@@PAPAPAV1@V?$allocator@PAPAVCPacket@@@std@@@std@@YAPAPAPAVCPacket@@PAPAPAV1@00AAV?$allocator@PAPAVCPacket@@@0@@Z 10026c20 f i GWCModule.obj
+ 0002:00015cb0       ??$_Uninitialized_default_fill_n@PAPAPAVCPacket@@IPAPAV1@V?$allocator@PAPAVCPacket@@@std@@@std@@YAXPAPAPAVCPacket@@IPBQAPAV1@AAV?$allocator@PAPAVCPacket@@@0@@Z 10026cb0 f i GWCModule.obj
+ 0002:00015d50       ??$_Destroy_range@V?$allocator@PAPAVCPacket@@@std@@@std@@YAXPAPAPAVCPacket@@0AAV?$allocator@PAPAVCPacket@@@0@@Z 10026d50 f i GWCModule.obj
+ 0002:00015dd0       ??$_Allocate@PAVCPacket@@@std@@YAPAPAVCPacket@@IPAPAV1@@Z 10026dd0 f i GWCModule.obj
+ 0002:00015e80       ??0bad_alloc@std@@QAE@PBD@Z 10026e80 f i GWCModule.obj
+ 0002:00015f00       ??1bad_alloc@std@@UAE@XZ   10026f00 f i GWCModule.obj
+ 0002:00015f70       ??_Ebad_alloc@std@@UAEPAXI@Z 10026f70 f i GWCModule.obj
+ 0002:00015f70       ??_Gbad_alloc@std@@UAEPAXI@Z 10026f70 f i GWCModule.obj
+ 0002:00015fe0       ??$_Allocate@PAPAVCPacket@@@std@@YAPAPAPAVCPacket@@IPAPAPAV1@@Z 10026fe0 f i GWCModule.obj
+ 0002:00016090       ??0bad_alloc@std@@QAE@ABV01@@Z 10027090 f i GWCModule.obj
+ 0002:00016110       ?construct@?$allocator@PAVCPacket@@@std@@QAEXPAPAVCPacket@@ABQAV3@@Z 10027110 f i GWCModule.obj
+ 0002:00016170       ?destroy@?$allocator@PAVCPacket@@@std@@QAEXPAPAVCPacket@@@Z 10027170 f i GWCModule.obj
+ 0002:000161d0       ?destroy@?$allocator@PAX@std@@QAEXPAPAX@Z 100271d0 f i GWCModule.obj
+ 0002:00016230       ??$forward@ABQAVCPacket@@@std@@YAABQAVCPacket@@ABQAV1@@Z 10027230 f i GWCModule.obj
+ 0002:00016270       ??$_Ptr_cat@PAPAVCPacket@@PAPAV1@@std@@YA?AU_Scalar_ptr_iterator_tag@0@PAPAPAVCPacket@@0@Z 10027270 f i GWCModule.obj
+ 0002:000162e0       ??$_Uninit_copy@PAPAVCPacket@@PAPAV1@@std@@YAPAPAPAVCPacket@@PAPAPAV1@00AAV?$allocator@PAPAVCPacket@@@0@U_Scalar_ptr_iterator_tag@0@@Z 100272e0 f i GWCModule.obj
+ 0002:000163a0       ??$_Val_type@PAPAPAVCPacket@@@std@@YAPAPAPAVCPacket@@PAPAPAV1@@Z 100273a0 f i GWCModule.obj
+ 0002:000163d0       ??$_Uninit_def_fill_n@PAPAVCPacket@@IPAPAV1@PAPAV1@@std@@YAXPAPAPAVCPacket@@IPBQAPAV1@AAV?$allocator@PAPAVCPacket@@@0@0U_Scalar_ptr_iterator_tag@0@@Z 100273d0 f i GWCModule.obj
+ 0002:00016440       ??$_Destroy_range@V?$allocator@PAPAVCPacket@@@std@@@std@@YAXPAPAPAVCPacket@@0AAV?$allocator@PAPAVCPacket@@@0@U_Scalar_ptr_iterator_tag@0@@Z 10027440 f i GWCModule.obj
+ 0002:00016470       ??$_Construct@PAVCPacket@@ABQAV1@@std@@YAXPAPAVCPacket@@ABQAV1@@Z 10027470 f i GWCModule.obj
+ 0002:00016570       ??2@YAPAXIPAX@Z            10027570 f i GWCModule.obj
+ 0002:000165b0       ??3@YAXPAX0@Z              100275b0 f i GWCModule.obj
+ 0002:000165e0       ??$_Destroy@PAVCPacket@@@std@@YAXPAPAVCPacket@@@Z 100275e0 f i GWCModule.obj
+ 0002:00016610       ??$_Destroy@PAX@std@@YAXPAPAX@Z 10027610 f i GWCModule.obj
+ 0002:00016640       ??$_Debug_range@PAPAPAVCPacket@@@std@@YAXPAPAPAVCPacket@@0PB_WI@Z 10027640 f i GWCModule.obj
+ 0002:000166c0       ??$_Debug_pointer@PAPAVCPacket@@@std@@YAXPAPAPAVCPacket@@PB_WI@Z 100276c0 f i GWCModule.obj
+ 0002:00016730       ??$_Fill_n@PAPAPAVCPacket@@IPAPAV1@@std@@YAXPAPAPAVCPacket@@IABQAPAV1@@Z 10027730 f i GWCModule.obj
+ 0002:00016790       ??$_Iter_cat@PAPAPAVCPacket@@@std@@YA?AUrandom_access_iterator_tag@0@ABQAPAPAVCPacket@@@Z 10027790 f i GWCModule.obj
+ 0002:00016810       ??$_Debug_range2@PAPAPAVCPacket@@@std@@YAXPAPAPAVCPacket@@0PB_WIUrandom_access_iterator_tag@0@@Z 10027810 f i GWCModule.obj
+ 0002:000168c0       ??0?$queue@PAVCPacket@@V?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@@std@@QAE@XZ 100278c0 f i GWCModule.obj
+ 0002:00016920       ??0?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAE@XZ 10027920 f i GWCModule.obj
+ 0002:00016990       ??0?$_Deque_val@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAE@V?$allocator@PAVCPacket@@@1@@Z 10027990 f i GWCModule.obj
+ 0002:00016b30       ??0_Container_proxy@std@@QAE@XZ 10027b30 f i GWCModule.obj
+ 0002:00016b80       ??0?$allocator@PAVCPacket@@@std@@QAE@XZ 10027b80 f i GWCModule.obj
+ 0002:00016bc0       ??0?$allocator@PAVCPacket@@@std@@QAE@ABV01@@Z 10027bc0 f i GWCModule.obj
+ 0002:00016c00       ?allocate@?$allocator@U_Container_proxy@std@@@std@@QAEPAU_Container_proxy@2@I@Z 10027c00 f i GWCModule.obj
+ 0002:00016c60       ??$?0PAVCPacket@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@PAVCPacket@@@1@@Z 10027c60 f i GWCModule.obj
+ 0002:00016ca0       ??$?0PAVCPacket@@@?$allocator@PAPAVCPacket@@@std@@QAE@ABV?$allocator@PAVCPacket@@@1@@Z 10027ca0 f i GWCModule.obj
+ 0002:00016ce0       ??$_Cons_val@V?$allocator@U_Container_proxy@std@@@std@@U_Container_proxy@2@U32@@std@@YAXAAV?$allocator@U_Container_proxy@std@@@0@PAU_Container_proxy@0@$$QAU20@@Z 10027ce0 f i GWCModule.obj
+ 0002:00016d40       ??$_Allocate@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@IPAU10@@Z 10027d40 f i GWCModule.obj
+ 0002:00016df0       ?construct@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@2@$$QAU32@@Z 10027df0 f i GWCModule.obj
+ 0002:00016f00       ??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z 10027f00 f i GWCModule.obj
+ 0002:00016f40       ??0?$queue@PAXV?$deque@PAXV?$allocator@PAX@std@@@std@@@std@@QAE@XZ 10027f40 f i GWCModule.obj
+ 0002:00016fa0       ??0?$deque@PAXV?$allocator@PAX@std@@@std@@QAE@XZ 10027fa0 f i GWCModule.obj
+ 0002:00017010       ??0?$_Deque_val@PAXV?$allocator@PAX@std@@@std@@QAE@V?$allocator@PAX@1@@Z 10028010 f i GWCModule.obj
+ 0002:000171b0       ??0?$allocator@PAX@std@@QAE@XZ 100281b0 f i GWCModule.obj
+ 0002:000171f0       ??0?$allocator@PAX@std@@QAE@ABV01@@Z 100281f0 f i GWCModule.obj
+ 0002:00017230       ??$?0PAX@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@PAX@1@@Z 10028230 f i GWCModule.obj
+ 0002:00017270       ??$?0PAX@?$allocator@PAPAX@std@@QAE@ABV?$allocator@PAX@1@@Z 10028270 f i GWCModule.obj
+ 0002:000172b0       ??0GWHeader@@QAE@XZ        100282b0 f i GWCModule.obj
+ 0002:00017310       ??0pipe@@QAE@XZ            10028310 f i GWCModule.obj
+ 0002:000173a0       ?ListenPipe@pipe@@SGKPAX@Z 100283a0 f i GWCModule.obj
+ 0002:00017510       ?push@?$queue@PAXV?$deque@PAXV?$allocator@PAX@std@@@std@@@std@@QAEXABQAX@Z 10028510 f i GWCModule.obj
+ 0002:00017570       ?push_back@?$deque@PAXV?$allocator@PAX@std@@@std@@QAEXABQAX@Z 10028570 f i GWCModule.obj
+ 0002:000176d0       ?_Growmap@?$deque@PAXV?$allocator@PAX@std@@@std@@IAEXI@Z 100286d0 f i GWCModule.obj
+ 0002:000179a0       ?allocate@?$allocator@PAX@std@@QAEPAPAXI@Z 100289a0 f i GWCModule.obj
+ 0002:00017a00       ?deallocate@?$allocator@PAPAX@std@@QAEXPAPAPAXI@Z 10028a00 f i GWCModule.obj
+ 0002:00017a60       ?max_size@?$deque@PAXV?$allocator@PAX@std@@@std@@QBEIXZ 10028a60 f i GWCModule.obj
+ 0002:00017ac0       ?_Xlen@?$deque@PAXV?$allocator@PAX@std@@@std@@IBEXXZ 10028ac0 f i GWCModule.obj
+ 0002:00017b20       ?allocate@?$allocator@PAPAX@std@@QAEPAPAPAXI@Z 10028b20 f i GWCModule.obj
+ 0002:00017b80       ?max_size@?$allocator@PAX@std@@QBEIXZ 10028b80 f i GWCModule.obj
+ 0002:00017bf0       ??$sprintf_s@$0BO@@@YAHAAY0BO@DPBDZZ 10028bf0 f i GWCModule.obj
+ 0002:00017c60       ??$_Cons_val@V?$allocator@PAX@std@@PAXABQAX@std@@YAXAAV?$allocator@PAX@0@PAPAXABQAX@Z 10028c60 f i GWCModule.obj
+ 0002:00017cc0       ??$_Uninitialized_copy@PAPAPAXPAPAPAXV?$allocator@PAPAX@std@@@std@@YAPAPAPAXPAPAPAX00AAV?$allocator@PAPAX@0@@Z 10028cc0 f i GWCModule.obj
+ 0002:00017d50       ??$_Uninitialized_default_fill_n@PAPAPAXIPAPAXV?$allocator@PAPAX@std@@@std@@YAXPAPAPAXIPBQAPAXAAV?$allocator@PAPAX@0@@Z 10028d50 f i GWCModule.obj
+ 0002:00017df0       ??$_Destroy_range@V?$allocator@PAPAX@std@@@std@@YAXPAPAPAX0AAV?$allocator@PAPAX@0@@Z 10028df0 f i GWCModule.obj
+ 0002:00017e70       ??$_Allocate@PAX@std@@YAPAPAXIPAPAX@Z 10028e70 f i GWCModule.obj
+ 0002:00017f20       ??$_Allocate@PAPAX@std@@YAPAPAPAXIPAPAPAX@Z 10028f20 f i GWCModule.obj
+ 0002:00017fd0       ?construct@?$allocator@PAX@std@@QAEXPAPAXABQAX@Z 10028fd0 f i GWCModule.obj
+ 0002:00018030       ??$forward@ABQAX@std@@YAABQAXABQAX@Z 10029030 f i GWCModule.obj
+ 0002:00018070       ??$_Ptr_cat@PAPAXPAPAX@std@@YA?AU_Scalar_ptr_iterator_tag@0@PAPAPAX0@Z 10029070 f i GWCModule.obj
+ 0002:000180e0       ??$_Uninit_copy@PAPAXPAPAX@std@@YAPAPAPAXPAPAPAX00AAV?$allocator@PAPAX@0@U_Scalar_ptr_iterator_tag@0@@Z 100290e0 f i GWCModule.obj
+ 0002:000181a0       ??$_Val_type@PAPAPAX@std@@YAPAPAPAXPAPAPAX@Z 100291a0 f i GWCModule.obj
+ 0002:000181d0       ??$_Uninit_def_fill_n@PAPAXIPAPAXPAPAX@std@@YAXPAPAPAXIPBQAPAXAAV?$allocator@PAPAX@0@0U_Scalar_ptr_iterator_tag@0@@Z 100291d0 f i GWCModule.obj
+ 0002:00018240       ??$_Destroy_range@V?$allocator@PAPAX@std@@@std@@YAXPAPAPAX0AAV?$allocator@PAPAX@0@U_Scalar_ptr_iterator_tag@0@@Z 10029240 f i GWCModule.obj
+ 0002:00018270       ??$_Construct@PAXABQAX@std@@YAXPAPAXABQAX@Z 10029270 f i GWCModule.obj
+ 0002:00018370       ??$_Debug_range@PAPAPAX@std@@YAXPAPAPAX0PB_WI@Z 10029370 f i GWCModule.obj
+ 0002:000183f0       ??$_Debug_pointer@PAPAX@std@@YAXPAPAPAXPB_WI@Z 100293f0 f i GWCModule.obj
+ 0002:00018460       ??$_Fill_n@PAPAPAXIPAPAX@std@@YAXPAPAPAXIABQAPAX@Z 10029460 f i GWCModule.obj
+ 0002:000184c0       ??$_Iter_cat@PAPAPAX@std@@YA?AUrandom_access_iterator_tag@0@ABQAPAPAX@Z 100294c0 f i GWCModule.obj
+ 0002:00018540       ??$_Debug_range2@PAPAPAX@std@@YAXPAPAPAX0PB_WIUrandom_access_iterator_tag@0@@Z 10029540 f i GWCModule.obj
+ 0002:000185f0       ??1?$queue@PAVCPacket@@V?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@@std@@QAE@XZ 100295f0 f i GWCModule.obj
+ 0002:00018640       ??1?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAE@XZ 10029640 f i GWCModule.obj
+ 0002:000186e0       ?_Tidy@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@IAEXXZ 100296e0 f i GWCModule.obj
+ 0002:00018800       ??1?$_Deque_val@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAE@XZ 10029800 f i GWCModule.obj
+ 0002:00018940       ?pop_back@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@QAEXXZ 10029940 f i GWCModule.obj
+ 0002:00018aa0       ?deallocate@?$allocator@PAVCPacket@@@std@@QAEXPAPAVCPacket@@I@Z 10029aa0 f i GWCModule.obj
+ 0002:00018b00       ?deallocate@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@2@I@Z 10029b00 f i GWCModule.obj
+ 0002:00018b60       ??$_Dest_val@V?$allocator@PAPAVCPacket@@@std@@PAPAVCPacket@@@std@@YAXAAV?$allocator@PAPAVCPacket@@@0@PAPAPAVCPacket@@@Z 10029b60 f i GWCModule.obj
+ 0002:00018bb0       ??$_Dest_val@V?$allocator@U_Container_proxy@std@@@std@@U_Container_proxy@2@@std@@YAXAAV?$allocator@U_Container_proxy@std@@@0@PAU_Container_proxy@0@@Z 10029bb0 f i GWCModule.obj
+ 0002:00018c00       ?destroy@?$allocator@PAPAVCPacket@@@std@@QAEXPAPAPAVCPacket@@@Z 10029c00 f i GWCModule.obj
+ 0002:00018c60       ?destroy@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@2@@Z 10029c60 f i GWCModule.obj
+ 0002:00018cc0       ??$_Destroy@PAPAVCPacket@@@std@@YAXPAPAPAVCPacket@@@Z 10029cc0 f i GWCModule.obj
+ 0002:00018cf0       ??$_Destroy@U_Container_proxy@std@@@std@@YAXPAU_Container_proxy@0@@Z 10029cf0 f i GWCModule.obj
+ 0002:00018d20       ??1?$queue@PAXV?$deque@PAXV?$allocator@PAX@std@@@std@@@std@@QAE@XZ 10029d20 f i GWCModule.obj
+ 0002:00018d70       ??1?$deque@PAXV?$allocator@PAX@std@@@std@@QAE@XZ 10029d70 f i GWCModule.obj
+ 0002:00018e10       ?_Tidy@?$deque@PAXV?$allocator@PAX@std@@@std@@IAEXXZ 10029e10 f i GWCModule.obj
+ 0002:00018f30       ??1?$_Deque_val@PAXV?$allocator@PAX@std@@@std@@QAE@XZ 10029f30 f i GWCModule.obj
+ 0002:00019070       ?pop_back@?$deque@PAXV?$allocator@PAX@std@@@std@@QAEXXZ 1002a070 f i GWCModule.obj
+ 0002:000191d0       ?deallocate@?$allocator@PAX@std@@QAEXPAPAXI@Z 1002a1d0 f i GWCModule.obj
+ 0002:00019230       ??$_Dest_val@V?$allocator@PAPAX@std@@PAPAX@std@@YAXAAV?$allocator@PAPAX@0@PAPAPAX@Z 1002a230 f i GWCModule.obj
+ 0002:00019280       ?destroy@?$allocator@PAPAX@std@@QAEXPAPAPAX@Z 1002a280 f i GWCModule.obj
+ 0002:000192e0       ??$_Destroy@PAPAX@std@@YAXPAPAPAX@Z 1002a2e0 f i GWCModule.obj
+ 0002:0001930e       _Sleep@4                   1002a30e f   kernel32:KERNEL32.dll
+ 0002:00019314       _VirtualProtect@16         1002a314 f   kernel32:KERNEL32.dll
+ 0002:0001931a       _CloseHandle@4             1002a31a f   kernel32:KERNEL32.dll
+ 0002:00019320       _SetProcessWorkingSetSize@12 1002a320 f   kernel32:KERNEL32.dll
+ 0002:00019326       _OpenProcess@12            1002a326 f   kernel32:KERNEL32.dll
+ 0002:0001932c       _GetCurrentProcessId@0     1002a32c f   kernel32:KERNEL32.dll
+ 0002:00019332       _FreeConsole@0             1002a332 f   kernel32:KERNEL32.dll
+ 0002:00019338       _SetConsoleScreenBufferSize@8 1002a338 f   kernel32:KERNEL32.dll
+ 0002:0001933e       _SetConsoleWindowInfo@12   1002a33e f   kernel32:KERNEL32.dll
+ 0002:00019344       _GetStdHandle@4            1002a344 f   kernel32:KERNEL32.dll
+ 0002:0001934a       _SetConsoleTitleA@4        1002a34a f   kernel32:KERNEL32.dll
+ 0002:00019350       _AllocConsole@0            1002a350 f   kernel32:KERNEL32.dll
+ 0002:00019356       _DisconnectNamedPipe@4     1002a356 f   kernel32:KERNEL32.dll
+ 0002:0001935c       _FlushFileBuffers@4        1002a35c f   kernel32:KERNEL32.dll
+ 0002:00019362       _WriteFile@20              1002a362 f   kernel32:KERNEL32.dll
+ 0002:00019368       _ReadFile@20               1002a368 f   kernel32:KERNEL32.dll
+ 0002:0001936e       _CreateThread@24           1002a36e f   kernel32:KERNEL32.dll
+ 0002:00019374       _CreateRemoteThread@28     1002a374 f   kernel32:KERNEL32.dll
+ 0002:0001937a       _GetProcAddress@8          1002a37a f   kernel32:KERNEL32.dll
+ 0002:00019380       _GetModuleHandleW@4        1002a380 f   kernel32:KERNEL32.dll
+ 0002:00019386       _WriteProcessMemory@20     1002a386 f   kernel32:KERNEL32.dll
+ 0002:0001938c       _VirtualAllocEx@20         1002a38c f   kernel32:KERNEL32.dll
+ 0002:00019392       _Thread32Next@8            1002a392 f   kernel32:KERNEL32.dll
+ 0002:00019398       _ResumeThread@4            1002a398 f   kernel32:KERNEL32.dll
+ 0002:0001939e       _SuspendThread@4           1002a39e f   kernel32:KERNEL32.dll
+ 0002:000193a4       _OpenThread@12             1002a3a4 f   kernel32:KERNEL32.dll
+ 0002:000193aa       _Thread32First@8           1002a3aa f   kernel32:KERNEL32.dll
+ 0002:000193b0       _CreateToolhelp32Snapshot@8 1002a3b0 f   kernel32:KERNEL32.dll
+ 0002:000193b6       _ConnectNamedPipe@8        1002a3b6 f   kernel32:KERNEL32.dll
+ 0002:000193bc       _CreateNamedPipeA@32       1002a3bc f   kernel32:KERNEL32.dll
+ 0002:000193c2       _SetWindowTextW@8          1002a3c2 f   user32:USER32.dll
+ 0002:000193c8       _ShowWindow@8              1002a3c8 f   user32:USER32.dll
+ 0002:000193ce       _GetKeyState@4             1002a3ce f   user32:USER32.dll
+ 0002:000193d4       _MessageBoxA@16            1002a3d4 f   user32:USER32.dll
+ 0002:000193da       _GetWindowThreadProcessId@8 1002a3da f   user32:USER32.dll
+ 0002:000193e0       ??_U@YAPAXI@Z              1002a3e0 f   msvcprtd:newaop_s.obj
+ 0002:000193f8       ?_Debug_message@std@@YAXPB_W0I@Z 1002a3f8 f   msvcprtd:MSVCP100D.dll
+ 0002:000193fe       ?_Orphan_all@_Container_base12@std@@QAEXXZ 1002a3fe f   msvcprtd:MSVCP100D.dll
+ 0002:00019404       ??1_Lockit@std@@QAE@XZ     1002a404 f   msvcprtd:MSVCP100D.dll
+ 0002:0001940a       ??0_Lockit@std@@QAE@H@Z    1002a40a f   msvcprtd:MSVCP100D.dll
+ 0002:00019410       ?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ 1002a410 f   msvcprtd:MSVCP100D.dll
+ 0002:00019416       ?_Xlength_error@std@@YAXPBD@Z 1002a416 f   msvcprtd:MSVCP100D.dll
+ 0002:0001941c       ??1_Container_base12@std@@QAE@XZ 1002a41c f   msvcprtd:MSVCP100D.dll
+ 0002:00019422       ??0_Container_base12@std@@QAE@XZ 1002a422 f   msvcprtd:MSVCP100D.dll
+ 0002:00019430       __RTC_CheckEsp             1002a430 f   MSVCRTD:_stack_.obj
+ 0002:00019460       @_RTC_CheckStackVars@8     1002a460 f   MSVCRTD:_stack_.obj
+ 0002:000194e0       @_RTC_AllocaHelper@12      1002a4e0 f   MSVCRTD:_stack_.obj
+ 0002:00019520       @_RTC_CheckStackVars2@12   1002a520 f   MSVCRTD:_stack_.obj
+ 0002:00019630       __except_handler4          1002a630 f   MSVCRTD:chandler4gs.obj
+ 0002:00019670       __RTC_InitBase             1002a670 f   MSVCRTD:_init_.obj
+ 0002:000196b0       __RTC_Shutdown             1002a6b0 f   MSVCRTD:_init_.obj
+ 0002:000196c8       _wprintf                   1002a6c8 f   MSVCRTD:MSVCR100D.dll
+ 0002:000196ce       _printf                    1002a6ce f   MSVCRTD:MSVCR100D.dll
+ 0002:000196d4       _sqrt                      1002a6d4 f   MSVCRTD:MSVCR100D.dll
+ 0002:000196da       __vswprintf_c_l            1002a6da f   MSVCRTD:MSVCR100D.dll
+ 0002:000196e0       ??3@YAXPAX@Z               1002a6e0 f   MSVCRTD:MSVCR100D.dll
+ 0002:000196e6       _memset                    1002a6e6 f   MSVCRTD:MSVCR100D.dll
+ 0002:000196ec       ??2@YAPAXI@Z               1002a6ec f   MSVCRTD:MSVCR100D.dll
+ 0002:000196f2       ___CxxFrameHandler3        1002a6f2 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019700       @__security_check_cookie@4 1002a700 f   MSVCRTD:secchk.obj
+ 0002:00019712       _strlen                    1002a712 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019718       _memcpy                    1002a718 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001971e       _fclose                    1002a71e f   MSVCRTD:MSVCR100D.dll
+ 0002:00019724       _freopen_s                 1002a724 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001972a       ___iob_func                1002a72a f   MSVCRTD:MSVCR100D.dll
+ 0002:00019730       _wcslen                    1002a730 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019740       __ftol2_sse                1002a740 f   MSVCRTD:ftol2.obj
+ 0002:00019749       __ftol2_pentium4           1002a749 f   MSVCRTD:ftol2.obj
+ 0002:0001975c       __ftol2_sse_excpt          1002a75c f   MSVCRTD:ftol2.obj
+ 0002:00019776       __ftol2                    1002a776 f   MSVCRTD:ftol2.obj
+ 0002:00019816       _malloc                    1002a816 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001981c       _memcmp                    1002a81c f   MSVCRTD:MSVCR100D.dll
+ 0002:00019822       _free                      1002a822 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019828       _fwrite                    1002a828 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001982e       _sprintf                   1002a82e f   MSVCRTD:MSVCR100D.dll
+ 0002:00019834       _strcpy                    1002a834 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001983a       _fread                     1002a83a f   MSVCRTD:MSVCR100D.dll
+ 0002:00019840       _rewind                    1002a840 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019846       _ftell                     1002a846 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001984c       _fseek                     1002a84c f   MSVCRTD:MSVCR100D.dll
+ 0002:00019852       _fopen_s                   1002a852 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019858       __invalid_parameter        1002a858 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001985e       __CrtDbgReportW            1002a85e f   MSVCRTD:MSVCR100D.dll
+ 0002:00019864       _vsprintf_s                1002a864 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001986a       __CxxThrowException@8      1002a86a f   MSVCRTD:MSVCR100D.dll
+ 0002:00019870       ??0type_info@@AAE@ABV0@@Z  1002a870 f   MSVCRTD:ti_inst.obj
+ 0002:000198a0       ??_Etype_info@@UAEPAXI@Z   1002a8a0 f i MSVCRTD:ti_inst.obj
+ 0002:00019930       ??4type_info@@AAEAAV0@ABV0@@Z 1002a930 f   MSVCRTD:ti_inst.obj
+ 0002:00019946       ??0exception@std@@QAE@ABV01@@Z 1002a946 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001994c       ??0exception@std@@QAE@ABQBD@Z 1002a94c f   MSVCRTD:MSVCR100D.dll
+ 0002:00019952       ?what@exception@std@@UBEPBDXZ 1002a952 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019958       ??1exception@std@@UAE@XZ   1002a958 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001995e       _memmove                   1002a95e f   MSVCRTD:MSVCR100D.dll
+ 0002:00019970       __onexit                   1002a970 f   MSVCRTD:atonexit.obj
+ 0002:00019aa0       _atexit                    1002aaa0 f   MSVCRTD:atonexit.obj
+ 0002:00019b70       __CRT_INIT@12              1002ab70 f   MSVCRTD:crtdll.obj
+ 0002:00019f20       _NtCurrentTeb              1002af20 f i MSVCRTD:crtdll.obj
+ 0002:00019f30       __DllMainCRTStartup@12     1002af30 f   MSVCRTD:crtdll.obj
+ 0002:0001a1b0       ?_RTC_Failure@@YAXPAXH@Z   1002b1b0 f   MSVCRTD:_error_.obj
+ 0002:0001a640       ?_RTC_StackFailure@@YAXPAXPBD@Z 1002b640 f   MSVCRTD:_error_.obj
+ 0002:0001a780       ?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z 1002b780 f   MSVCRTD:_error_.obj
+ 0002:0001a990       __RTC_UninitUse            1002b990 f   MSVCRTD:_error_.obj
+ 0002:0001aab4       __except_handler4_common   1002bab4 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001aac0       __RTC_NumErrors            1002bac0 f   MSVCRTD:_userapi_.obj
+ 0002:0001aad0       __RTC_GetErrDesc           1002bad0 f   MSVCRTD:_userapi_.obj
+ 0002:0001aaf0       __RTC_SetErrorType         1002baf0 f   MSVCRTD:_userapi_.obj
+ 0002:0001ab20       __RTC_SetErrorFunc         1002bb20 f   MSVCRTD:_userapi_.obj
+ 0002:0001ab50       __RTC_SetErrorFuncW        1002bb50 f   MSVCRTD:_userapi_.obj
+ 0002:0001ab80       ?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z 1002bb80 f   MSVCRTD:_userapi_.obj
+ 0002:0001ab90       ?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z 1002bb90 f   MSVCRTD:_userapi_.obj
+ 0002:0001ab96       __CRT_RTC_INITW            1002bb96 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001aba0       ___report_gsfailure        1002bba0 f   MSVCRTD:gs_report.obj
+ 0002:0001ad00       ___sse2_available_init     1002bd00 f   MSVCRTD:cpu_disp.obj
+ 0002:0001ad20       ??_M@YGXPAXIHP6EX0@Z@Z     1002bd20 f   MSVCRTD:ehvecdtr.obj
+ 0002:0001ae00       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1002be00 f   MSVCRTD:ehvecdtr.obj
+ 0002:0001aeea       __unlock                   1002beea f   MSVCRTD:MSVCR100D.dll
+ 0002:0001aef0       ___dllonexit               1002bef0 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001aef6       __lock                     1002bef6 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001af00       ___clean_type_info_names   1002bf00 f   MSVCRTD:tncleanup.obj
+ 0002:0001af20       __RTC_Initialize           1002bf20 f   MSVCRTD:_initsect_.obj
+ 0002:0001af50       __RTC_Terminate            1002bf50 f   MSVCRTD:_initsect_.obj
+ 0002:0001af80       __malloc_dbg               1002bf80 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001af86       __free_dbg                 1002bf86 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001af8c       __encoded_null             1002bf8c f   MSVCRTD:MSVCR100D.dll
+ 0002:0001af92       __CrtSetCheckCount         1002bf92 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001afa0       __ValidateImageBase        1002bfa0 f   MSVCRTD:pesect.obj
+ 0002:0001b020       __FindPESection            1002c020 f   MSVCRTD:pesect.obj
+ 0002:0001b0c0       __IsNonwritableInCurrentImage 1002c0c0 f   MSVCRTD:pesect.obj
+ 0002:0001b216       __initterm                 1002c216 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001b21c       __initterm_e               1002c21c f   MSVCRTD:MSVCR100D.dll
+ 0002:0001b222       __amsg_exit                1002c222 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001b230       ___security_init_cookie    1002c230 f   MSVCRTD:gs_support.obj
+ 0002:0001b348       ___CppXcptFilter           1002c348 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001b350       ?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z 1002c350 f   MSVCRTD:_pdblkup_.obj
+ 0002:0001b926       __crt_debugger_hook        1002c926 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001b92c       ?terminate@@YAXXZ          1002c92c f   MSVCRTD:MSVCR100D.dll
+ 0002:0001b932       ??1type_info@@UAE@XZ       1002c932 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001b932       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1002c932 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001b938       ___clean_type_info_names_internal 1002c938 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001b93e       _EncodePointer@4           1002c93e f   kernel32:KERNEL32.dll
+ 0002:0001b944       _DecodePointer@4           1002c944 f   kernel32:KERNEL32.dll
+ 0002:0001b94a       _InterlockedExchange@8     1002c94a f   kernel32:KERNEL32.dll
+ 0002:0001b950       _InterlockedCompareExchange@12 1002c950 f   kernel32:KERNEL32.dll
+ 0002:0001b956       _WideCharToMultiByte@32    1002c956 f   kernel32:KERNEL32.dll
+ 0002:0001b95c       _IsDebuggerPresent@0       1002c95c f   kernel32:KERNEL32.dll
+ 0002:0001b962       _MultiByteToWideChar@24    1002c962 f   kernel32:KERNEL32.dll
+ 0002:0001b968       _RaiseException@16         1002c968 f   kernel32:KERNEL32.dll
+ 0002:0001b96e       _lstrlenA@4                1002c96e f   kernel32:KERNEL32.dll
+ 0002:0001b974       _LoadLibraryW@4            1002c974 f   kernel32:KERNEL32.dll
+ 0002:0001b97a       _TerminateProcess@8        1002c97a f   kernel32:KERNEL32.dll
+ 0002:0001b980       _GetCurrentProcess@0       1002c980 f   kernel32:KERNEL32.dll
+ 0002:0001b986       _UnhandledExceptionFilter@4 1002c986 f   kernel32:KERNEL32.dll
+ 0002:0001b98c       _SetUnhandledExceptionFilter@4 1002c98c f   kernel32:KERNEL32.dll
+ 0002:0001b992       _IsProcessorFeaturePresent@4 1002c992 f   kernel32:KERNEL32.dll
+ 0002:0001b998       _QueryPerformanceCounter@4 1002c998 f   kernel32:KERNEL32.dll
+ 0002:0001b99e       _GetTickCount@0            1002c99e f   kernel32:KERNEL32.dll
+ 0002:0001b9a4       _GetCurrentThreadId@0      1002c9a4 f   kernel32:KERNEL32.dll
+ 0002:0001b9aa       _GetSystemTimeAsFileTime@4 1002c9aa f   kernel32:KERNEL32.dll
+ 0002:0001b9b0       _HeapFree@12               1002c9b0 f   kernel32:KERNEL32.dll
+ 0002:0001b9b6       _HeapAlloc@12              1002c9b6 f   kernel32:KERNEL32.dll
+ 0002:0001b9bc       _GetProcessHeap@0          1002c9bc f   kernel32:KERNEL32.dll
+ 0002:0001b9c2       _GetModuleFileNameW@12     1002c9c2 f   kernel32:KERNEL32.dll
+ 0002:0001b9c8       _VirtualQuery@12           1002c9c8 f   kernel32:KERNEL32.dll
+ 0002:0001b9ce       _FreeLibrary@4             1002c9ce f   kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    10032000     MSVCRTD:cinitexe.obj
+ 0003:0000021c       ___xc_z                    1003221c     MSVCRTD:cinitexe.obj
+ 0003:00000320       ___xi_a                    10032320     MSVCRTD:cinitexe.obj
+ 0003:0000062c       ___xi_z                    1003262c     MSVCRTD:cinitexe.obj
+ 0003:0000074c       ?value@?$integral_constant@_N$0A@@tr1@std@@2_NB 1003274c     GWCModule.obj
+ 0003:0000074d       ?value@?$integral_constant@_N$00@tr1@std@@2_NB 1003274d     GWCModule.obj
+ 0003:00000750       ?value@?$integral_constant@I$0A@@tr1@std@@2IB 10032750     GWCModule.obj
+ 0003:00000754       ?_Rank@?$_Arithmetic_traits@_N@std@@2HB 10032754     GWCModule.obj
+ 0003:00000758       ?_Rank@?$_Arithmetic_traits@D@std@@2HB 10032758     GWCModule.obj
+ 0003:0000075c       ?_Rank@?$_Arithmetic_traits@C@std@@2HB 1003275c     GWCModule.obj
+ 0003:00000760       ?_Rank@?$_Arithmetic_traits@E@std@@2HB 10032760     GWCModule.obj
+ 0003:00000764       ?_Rank@?$_Arithmetic_traits@F@std@@2HB 10032764     GWCModule.obj
+ 0003:00000768       ?_Rank@?$_Arithmetic_traits@G@std@@2HB 10032768     GWCModule.obj
+ 0003:0000076c       ?_Rank@?$_Arithmetic_traits@H@std@@2HB 1003276c     GWCModule.obj
+ 0003:00000770       ?_Rank@?$_Arithmetic_traits@I@std@@2HB 10032770     GWCModule.obj
+ 0003:00000774       ?_Rank@?$_Arithmetic_traits@J@std@@2HB 10032774     GWCModule.obj
+ 0003:00000778       ?_Rank@?$_Arithmetic_traits@K@std@@2HB 10032778     GWCModule.obj
+ 0003:0000077c       ?_Rank@?$_Arithmetic_traits@_J@std@@2HB 1003277c     GWCModule.obj
+ 0003:00000780       ?_Rank@?$_Arithmetic_traits@_K@std@@2HB 10032780     GWCModule.obj
+ 0003:00000784       ?_Rank@?$_Arithmetic_traits@M@std@@2HB 10032784     GWCModule.obj
+ 0003:00000788       ?_Rank@?$_Arithmetic_traits@N@std@@2HB 10032788     GWCModule.obj
+ 0003:0000078c       ?_Rank@?$_Arithmetic_traits@O@std@@2HB 1003278c     GWCModule.obj
+ 0003:00000790       ?_EEM_DS@?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@2HB 10032790     GWCModule.obj
+ 0003:00000794       ?_EEM_DS@?$deque@PAXV?$allocator@PAX@std@@@std@@2HB 10032794     GWCModule.obj
+ 0003:00000798       __real@4f1502f9            10032798     GWCModule.obj
+ 0003:0000079c       ??_C@_19NPGMHIMC@?$AA?$CF?$AAs?$AA?7?$AA?6?$AA?$AA@ 1003279c     GWCModule.obj
+ 0003:000007a8       ??_C@_03NBBHOIGN@?$CFX?6?$AA@ 100327a8     GWCModule.obj
+ 0003:000007b0       __real@0000000000000000    100327b0     GWCModule.obj
+ 0003:000007bc       __real@00000000            100327bc     GWCModule.obj
+ 0003:000007c0       ??_C@_0M@OLBBDLJB@Gegner?3?5?$CFi?6?$AA@ 100327c0     GWCModule.obj
+ 0003:000007d0       ??_C@_07CIFAGBMG@unknown?$AA@ 100327d0     GWCModule.obj
+ 0003:000007dc       ??_C@_05JNPIGOAJ@Japan?$AA@ 100327dc     GWCModule.obj
+ 0003:000007e4       ??_C@_05BGDCBOFH@China?$AA@ 100327e4     GWCModule.obj
+ 0003:000007ec       ??_C@_06IDGDEFGF@Europe?$AA@ 100327ec     GWCModule.obj
+ 0003:000007f4       ??_C@_05MHAHOKOB@Asien?$AA@ 100327f4     GWCModule.obj
+ 0003:000007fc       ??_C@_07DOPJHFJA@America?$AA@ 100327fc     GWCModule.obj
+ 0003:00000808       ??_C@_0O@DODHDIJK@International?$AA@ 10032808     GWCModule.obj
+ 0003:00000818       ??_C@_08PLMJCGBE@Russisch?$AA@ 10032818     GWCModule.obj
+ 0003:00000824       ??_C@_08BGJKNOBD@Polnisch?$AA@ 10032824     GWCModule.obj
+ 0003:00000830       ??_C@_08OLFLKAJB@Spanisch?$AA@ 10032830     GWCModule.obj
+ 0003:0000083c       ??_C@_0M@MNKALABO@Italienisch?$AA@ 1003283c     GWCModule.obj
+ 0003:0000084c       ??_C@_07CHAGMOBK@Deutsch?$AA@ 1003284c     GWCModule.obj
+ 0003:00000858       ??_C@_0N@EJIFPMLC@Franzoesisch?$AA@ 10032858     GWCModule.obj
+ 0003:00000868       ??_C@_07NEKHPBCG@English?$AA@ 10032868     GWCModule.obj
+ 0003:00000874       ??_C@_0BF@GGNAIPFN@Cast?5Skill?5?$FL?$CFi?$FN?3?5?$CFi?6?$AA@ 10032874     GWCModule.obj
+ 0003:00000890       ??_C@_1CA@OEBKNPAI@?$AAG?$AAu?$AAi?$AAl?$AAd?$AA?5?$AAW?$AAa?$AAr?$AAs?$AA?5?$AA?$HM?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10032890     GWCModule.obj
+ 0003:000008b8       ??_C@_0BA@HMMOOHKP@Betrete?5Schild?6?$AA@ 100328b8     GWCModule.obj
+ 0003:000008cc       ??_C@_0CP@IPFPHNKL@TravelTo?5?$HM?5ID?3?5?$CFi?5?$DO?5Region?3?5?$CFi?5?$HM@ 100328cc     GWCModule.obj
+ 0003:00000904       ??_C@_0N@OKJNMHHC@Betrete?5GvG?6?$AA@ 10032904     GWCModule.obj
+ 0003:00000914       ??_C@_09FIEDOKNL@LeaveGRP?6?$AA@ 10032914     GWCModule.obj
+ 0003:00000920       ??_C@_0BD@LIHODLGN@Betrete?5Challenge?6?$AA@ 10032920     GWCModule.obj
+ 0003:00000938       ??_C@_0L@PKFOLBMC@Switch?5HM?6?$AA@ 10032938     GWCModule.obj
+ 0003:00000948       ??_C@_0L@NPDFOOBO@Switch?5NM?6?$AA@ 10032948     GWCModule.obj
+ 0003:00000958       ??_C@_0BG@HFLDBBOO@MoveTo?5X?3?$CF?40f?7Y?3?$CF?40f?6?$AA@ 10032958     GWCModule.obj
+ 0003:00000974       ??_C@_0BE@GCECELOJ@Spende?5Luxon?9Punkte?$AA@ 10032974     GWCModule.obj
+ 0003:0000098c       ??_C@_0BG@JIMFMPFJ@Spende?5Kurzick?9Punkte?$AA@ 1003298c     GWCModule.obj
+ 0003:000009a8       ??_C@_0BA@OFOFLCCN@Invite?5NPC?3?5?$CFi?6?$AA@ 100329a8     GWCModule.obj
+ 0003:000009bc       ??_C@_0BJ@MFGBEHHM@Spieler?5einladen?5ID?3?5?$CFi?6?$AA@ 100329bc     GWCModule.obj
+ 0003:000009dc       ??_C@_0O@LCHHDOJH@Kick?5NPC?3?5?$CFi?6?$AA@ 100329dc     GWCModule.obj
+ 0003:000009ec       ??_C@_0BG@PBMOOCJB@Item?5aufheben?5ID?3?5?$CFi?6?$AA@ 100329ec     GWCModule.obj
+ 0003:00000a08       ??_C@_0L@GKFIGPPB@Travel?5GH?6?$AA@ 10032a08     GWCModule.obj
+ 0003:00000a18       ??_C@_0BD@BNDNKAOF@Travel?5GH?5Spezial?6?$AA@ 10032a18     GWCModule.obj
+ 0003:00000a30       ??_C@_0BD@EGKHJJFO@LeaveGRP?5Speziall?6?$AA@ 10032a30     GWCModule.obj
+ 0003:00000a48       ??_C@_09GKDBEOD@Leave?5GH?6?$AA@ 10032a48     GWCModule.obj
+ 0003:00000a54       ??_C@_0BE@IIEPGMIB@AcceptDialog?3?50x?$CFX?6?$AA@ 10032a54     GWCModule.obj
+ 0003:00000a6c       ??_C@_0M@HCONIJCM@Open?5Chest?6?$AA@ 10032a6c     GWCModule.obj
+ 0003:00000a7c       ??_C@_0O@EPBANGOC@Use?5Item?3?5?$CFi?6?$AA@ 10032a7c     GWCModule.obj
+ 0003:00000a8c       ??_C@_0BB@CPBBOPCG@Ident?4?5Item?3?5?$CFi?6?$AA@ 10032a8c     GWCModule.obj
+ 0003:00000aa0       ??_C@_0O@KIEMKIDD@Size?3?5?$CFi?7?5?$CFX?6?$AA@ 10032aa0     GWCModule.obj
+ 0003:00000ab0       ??_C@_0CC@PHHNGEBP@GvG?5?9?5Counter?5wurde?5gestartet?4?4?4@ 10032ab0     GWCModule.obj
+ 0003:00000ad8       ??_C@_0P@HDJECPED@Sell?5Item?3?5?$CFi?6?$AA@ 10032ad8     GWCModule.obj
+ 0003:00000aec       ??_C@_0O@OFJIDPOO@Buy?5Item?3?5?$CFi?6?$AA@ 10032aec     GWCModule.obj
+ 0003:00000afc       ??_C@_0CE@GGHDMMDL@MoveItem?5?$HM?5ID?3?5?$CFi?7Bag?3?5?$CFi?7Slot?3?5@ 10032afc     GWCModule.obj
+ 0003:00000b28       ??_C@_0BA@HLFDPCFP@Enable?5graphic?6?$AA@ 10032b28     GWCModule.obj
+ 0003:00000b3c       ??_C@_0BB@HIDIEPHK@Disable?5graphic?6?$AA@ 10032b3c     GWCModule.obj
+ 0003:00000b50       ??_C@_0CM@NCLLJPGI@Guild?5Wars?5Aktion?5Logging?5?9?5Char@ 10032b50     GWCModule.obj
+ 0003:00000b84       ??_C@_07GPDNMNG@CONOUT$?$AA@ 10032b84     GWCModule.obj
+ 0003:00000b90       ??_C@_02GMLFBBN@wb?$AA@    10032b90     GWCModule.obj
+ 0003:00000b94       ??_C@_0BA@GMBPEIBL@Guild?5Wars?5?$HM?5?$CFs?$AA@ 10032b94     GWCModule.obj
+ 0003:00000ba8       ??_C@_0CC@DOHADJOH@Guild?5Wars?5Pipe?$DN?5?2?2?4?2pipe?2GWC_?$CFi@ 10032ba8     GWCModule.obj
+ 0003:00000bd0       ??_C@_0BE@BEFPPLCI@CtoSStartSP?$DN0x?$CF06X?6?$AA@ 10032bd0     GWCModule.obj
+ 0003:00000be8       ??_C@_0BH@BKEPAECE@TargetLogStart?$DN0x?$CF06X?6?$AA@ 10032be8     GWCModule.obj
+ 0003:00000c04       ??_C@_0BJ@GFIFLOFJ@TraderCostReturn?$DN0x?$CF06X?6?$AA@ 10032c04     GWCModule.obj
+ 0003:00000c24       ??_C@_0BI@MBDDMBMA@TraderCostStart?$DN0x?$CF06X?6?$AA@ 10032c24     GWCModule.obj
+ 0003:00000c40       ??_C@_0BO@HHMOEMGM@StorageFunctionCodeSP?$DN0x?$CF06X?6?$AA@ 10032c40     GWCModule.obj
+ 0003:00000c64       ??_C@_0BP@FMPFFLI@UseSkillFunctionCodeSP?$DN0x?$CF06X?6?$AA@ 10032c64     GWCModule.obj
+ 0003:00000c8c       ??_C@_0BL@NGICCLMJ@GetItemValueCodeSP?$DN0x?$CF06X?6?$AA@ 10032c8c     GWCModule.obj
+ 0003:00000cac       ??_C@_0CB@LOGIGNGI@ConnectionLocationCodeSP?$DN0x?$CF06X?6@ 10032cac     GWCModule.obj
+ 0003:00000cd4       ??_C@_0BN@GJBMKMHO@TraderFunctionCodeSP?$DN0x?$CF06X?6?$AA@ 10032cd4     GWCModule.obj
+ 0003:00000cf8       ??_C@_0BP@DEDLBICB@LanguageLocationCodeSP?$DN0x?$CF06X?6?$AA@ 10032cf8     GWCModule.obj
+ 0003:00000d20       ??_C@_0BN@KALLLLB@RegionLocationCodeSP?$DN0x?$CF06X?6?$AA@ 10032d20     GWCModule.obj
+ 0003:00000d44       ??_C@_0BI@DMKLJMNC@SetAttrisCodeSP?$DN0x?$CF06X?6?$AA@ 10032d44     GWCModule.obj
+ 0003:00000d60       ??_C@_0BL@GBBHFLE@LoadFinishedCodeSP?$DN0x?$CF06X?6?$AA@ 10032d60     GWCModule.obj
+ 0003:00000d80       ??_C@_0BM@BDBDCPCE@SkillTypeBaseCodeSP?$DN0x?$CF06X?6?$AA@ 10032d80     GWCModule.obj
+ 0003:00000da4       ??_C@_0CC@PJGNPAGJ@BasePointerLocationCodeSP?$DN0x?$CF06X@ 10032da4     GWCModule.obj
+ 0003:00000dcc       ??_C@_0BL@ENNHAPJM@DeadLocationCodeSP?$DN0x?$CF06X?6?$AA@ 10032dcc     GWCModule.obj
+ 0003:00000dec       ??_C@_0BL@COEKMFCB@NameLocationCodeSP?$DN0x?$CF06X?6?$AA@ 10032dec     GWCModule.obj
+ 0003:00000e0c       ??_C@_0BP@KGMEOPNB@LoggedInLocationCodeSP?$DN0x?$CF06X?6?$AA@ 10032e0c     GWCModule.obj
+ 0003:00000e34       ??_C@_0BL@LHBKLCNJ@PingLocationCodeSP?$DN0x?$CF06X?6?$AA@ 10032e34     GWCModule.obj
+ 0003:00000e54       ??_C@_0BG@NONLODLN@BuyItemCodeSP?$DN0x?$CF06X?6?$AA@ 10032e54     GWCModule.obj
+ 0003:00000e70       ??_C@_0BH@KBMJJPOF@SellItemCodeSP?$DN0x?$CF06X?6?$AA@ 10032e70     GWCModule.obj
+ 0003:00000e8c       ??_C@_0BM@MKAFOLOO@MaxZoomMobileCodeSP?$DN0x?$CF06X?6?$AA@ 10032e8c     GWCModule.obj
+ 0003:00000eb0       ??_C@_0BL@LKFGFFKH@MaxZoomStillCodeSP?$DN0x?$CF06X?6?$AA@ 10032eb0     GWCModule.obj
+ 0003:00000ed0       ??_C@_0BL@POLMMOEA@ChangeTargetCodeSP?$DN0x?$CF06X?6?$AA@ 10032ed0     GWCModule.obj
+ 0003:00000ef0       ??_C@_0BK@KFCCMJBA@BuildNumberCodeSP?$DN0x?$CF06X?6?$AA@ 10032ef0     GWCModule.obj
+ 0003:00000f10       ??_C@_0BK@IOAJCEIJ@ClickToMoveCodeSP?$DN0x?$CF06X?6?$AA@ 10032f10     GWCModule.obj
+ 0003:00000f30       ??_C@_0BO@GGPDDJCM@TargetFunctionsCodeSP?$DN0x?$CF06X?6?$AA@ 10032f30     GWCModule.obj
+ 0003:00000f54       ??_C@_0BL@KMECLOKA@WriteWhisperCodeSP?$DN0x?$CF06X?6?$AA@ 10032f54     GWCModule.obj
+ 0003:00000f74       ??_C@_0BM@PILFBMPD@MapIdLocationCodeSP?$DN0x?$CF06X?6?$AA@ 10032f74     GWCModule.obj
+ 0003:00000f98       ??_C@_0BI@OOJLKOFH@AgentBaseCodeSP?$DN0x?$CF06X?6?$AA@ 10032f98     GWCModule.obj
+ 0003:00000fb4       ??_C@_0BJ@EOINLIAB@BaseOffsetCodeSP?$DN0x?$CF06X?6?$AA@ 10032fb4     GWCModule.obj
+ 0003:00000fd4       ??_C@_0BJ@EIPELJDJ@PacketSendCodeSP?$DN0x?$CF06X?6?$AA@ 10032fd4     GWCModule.obj
+ 0003:00000ff4       ??_C@_0BE@CHDJGIB@OwnYCoordSP?$DN0x?$CF06X?6?$AA@ 10032ff4     GWCModule.obj
+ 0003:0000100c       ??_C@_0BE@IFNFFNMC@OwnXCoordSP?$DN0x?$CF06X?6?$AA@ 1003300c     GWCModule.obj
+ 0003:00001024       ??_C@_0BF@GFKEPGDJ@LoadScreenSP?$DN0x?$CF06X?6?$AA@ 10033024     GWCModule.obj
+ 0003:00001040       ??_C@_0BI@BFFIMPDO@WinHandleCodeSP?$DN0x?$CF06X?6?$AA@ 10033040     GWCModule.obj
+ 0003:0000105c       ??_C@_08IOLONNHO@IDSP?$DN?$CFX?6?$AA@ 1003305c     GWCModule.obj
+ 0003:00001068       ??_C@_0BH@IHDFLCPD@MainOffsetHook?$DN0x?$CF06X?6?$AA@ 10033068     GWCModule.obj
+ 0003:00001084       ??_C@_0BG@MGPBDNJ@EngineExStart?$DN0x?$CF06X?6?$AA@ 10033084     GWCModule.obj
+ 0003:000010a0       ??_C@_0BF@KHCODPDH@EngineCodeSP?$DN0x?$CF06X?6?$AA@ 100330a0     GWCModule.obj
+ 0003:000010bc       ??_C@_0CD@MDODEJBO@?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK@ 100330bc     GWCModule.obj
+ 0003:000010e8       ??_C@_0BE@MCJOOKNI@Basepointer?$DN0x?$CF06X?6?$AA@ 100330e8     GWCModule.obj
+ 0003:00001100       ??_C@_0N@CMMOGCEA@?$FLimportant?$FN?6?$AA@ 10033100     GWCModule.obj
+ 0003:00001110       ??_C@_0DN@NMFINLDK@?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@ 10033110     GWCModule.obj
+ 0003:0000115c       ??_C@_0BC@JFKKMJFL@Pickup?5Quest?3?5?$CFi?6?$AA@ 1003315c     GWCModule.obj
+ 0003:00001174       ??_C@_0BE@OBLGGGEA@Items?5Bag?54?3?5?$CFi?1?$CFi?6?$AA@ 10033174     GWCModule.obj
+ 0003:0000118c       ??_C@_0BE@DGKHNDJ@Items?5Bag?53?3?5?$CFi?1?$CFi?6?$AA@ 1003318c     GWCModule.obj
+ 0003:000011a4       ??_C@_0BE@OMKIBGAH@Items?5Bag?52?3?5?$CFi?1?$CFi?6?$AA@ 100331a4     GWCModule.obj
+ 0003:000011bc       ??_C@_0BE@HJPKNAE@Items?5Bag?51?3?5?$CFi?1?$CFi?6?$AA@ 100331bc     GWCModule.obj
+ 0003:000011d4       ??_C@_0BH@CEDAFPOO@TargetAgentPointer?5?$CFX?6?$AA@ 100331d4     GWCModule.obj
+ 0003:000011f0       ??_C@_0N@MHMCOFJM@AgentTyp?5?$CFi?6?$AA@ 100331f0     GWCModule.obj
+ 0003:00001200       ??_C@_0BA@EMPHCLO@MatchStatus?5?$CFi?6?$AA@ 10033200     GWCModule.obj
+ 0003:00001214       ??_C@_0BJ@KKGNHBBD@Item?5modelId?5Slot?51?3?5?$CFi?6?$AA@ 10033214     GWCModule.obj
+ 0003:00001234       ??_C@_0BA@CADLCOID@Loadscreen?3?5?$CFi?6?$AA@ 10033234     GWCModule.obj
+ 0003:00001248       ??_C@_0BH@DLIPAEJG@Current?5Target?5ID?3?5?$CFi?6?$AA@ 10033248     GWCModule.obj
+ 0003:00001264       ??_C@_0P@DEOOHDAE@GroupSize?3?5?$CFX?6?$AA@ 10033264     GWCModule.obj
+ 0003:00001278       ??_C@_0CF@DNIFLGDD@Aktive?5CheckQuestReturnLogstate?3@ 10033278     GWCModule.obj
+ 0003:000012a4       ??_C@_0BI@CGCHBEAP@Aktive?5Quest?5ID?3?5?$CFX?1?$CFi?6?$AA@ 100332a4     GWCModule.obj
+ 0003:000012c0       ??_C@_0BG@GGFEMJHN@Letzte?5Dialog?5ID?3?5?$CFi?6?$AA@ 100332c0     GWCModule.obj
+ 0003:000012dc       ??_C@_0DN@GKGNJBDO@?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK@ 100332dc     GWCModule.obj
+ 0003:00001328       ??_C@_0BG@HLLKPHI@Balth?4?5Punkte?3?5?$CFi?1?$CFi?6?$AA@ 10033328     GWCModule.obj
+ 0003:00001344       ??_C@_0BH@MOFMEIOJ@Kurzick?5Punkte?3?5?$CFi?1?$CFi?6?$AA@ 10033344     GWCModule.obj
+ 0003:00001360       ??_C@_0M@MPNGJMKI@Federn?3?5?$CFi?6?$AA@ 10033360     GWCModule.obj
+ 0003:00001370       ??_C@_0L@CNEBKCKH@Ektos?3?5?$CFi?6?$AA@ 10033370     GWCModule.obj
+ 0003:00001380       ??_C@_0BD@ODDPPNJJ@Zaishen?9Key?8s?3?5?$CFi?6?$AA@ 10033380     GWCModule.obj
+ 0003:00001398       ??_C@_0DM@KIOAABKN@?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK@ 10033398     GWCModule.obj
+ 0003:000013e0       ??_C@_0BB@OLDGJKKC@LoginNumber?3?5?$CFi?6?$AA@ 100333e0     GWCModule.obj
+ 0003:000013f4       ??_C@_0M@ONDJGPC@TeamId?3?5?$CFi?6?$AA@ 100333f4     GWCModule.obj
+ 0003:00001404       ??_C@_0BC@HCJEEFEN@PlayerNumber?3?5?$CFi?6?$AA@ 10033404     GWCModule.obj
+ 0003:0000141c       ??_C@_0BH@EOADLPNM@Connection?5Status?3?5?$CFi?6?$AA@ 1003341c     GWCModule.obj
+ 0003:00001438       ??_C@_0DD@DEHJHIIL@MapID?3?5?$CFi?7RegionLocation?3?5?$CFi?7Lan@ 10033438     GWCModule.obj
+ 0003:00001478       ??_C@_0BJ@DHOPFAJ@Spieler?5Money?9Truhe?3?5?$CFi?6?$AA@ 10033478     GWCModule.obj
+ 0003:00001498       ??_C@_0BD@ILKLEJIH@Spieler?5Money?3?5?$CFi?6?$AA@ 10033498     GWCModule.obj
+ 0003:000014b0       ??_C@_0BC@OKPNIOID@Spieler?5Name?3?5?$CFs?6?$AA@ 100334b0     GWCModule.obj
+ 0003:000014c8       ??_C@_0M@JNJINFBG@E?9Mail?3?5?$CFs?6?$AA@ 100334c8     GWCModule.obj
+ 0003:000014d8       ??_C@_0BJ@PHAIEPJJ@?$FLSpieler?5Informationen?$FN?6?$AA@ 100334d8     GWCModule.obj
+ 0003:000014f8       ??_C@_04IBKKHNED@?$CFi?6?6?$AA@ 100334f8     GWCModule.obj
+ 0003:00001500       ??_C@_0BC@EBAMKDAK@Reward?5Quest?3?5?$CFi?6?$AA@ 10033500     GWCModule.obj
+ 0003:00001518       ??_C@_0N@ELLKPMCI@gesendet?9?9?9?6?$AA@ 10033518     GWCModule.obj
+ 0003:00001528       ??_C@_03OJFKKOIN@?$CFx?6?$AA@ 10033528     GWCModule.obj
+ 0003:0000152c       ??_C@_0CD@FJPJOBAH@Fehler?5beim?5?8beenden?8?5der?5Pipe?4?4@ 1003352c     GWCModule.obj
+ 0003:00001558       ??_C@_0CI@IJOFGNKL@Fehler?5beim?5?8disconnecten?8?5der?5P@ 10033558     GWCModule.obj
+ 0003:00001588       ??_C@_0CD@GHCGIBPF@Fehler?5beim?5?8flushen?8?5der?5Pipe?4?4@ 10033588     GWCModule.obj
+ 0003:000015b4       ??_C@_0CD@KKDFGPOG@?6?6War?5bereits?5in?5einer?5GRUPPE?$CB?$CB?$CB@ 100335b4     GWCModule.obj
+ 0003:000015e0       ??_C@_06EBGMNGL@giveup?$AA@ 100335e0     GWCModule.obj
+ 0003:000015e8       ??_C@_06POHMGHA@resign?$AA@ 100335e8     GWCModule.obj
+ 0003:000015f0       ??_C@_09IADJBFIP@Aufgeben?6?$AA@ 100335f0     GWCModule.obj
+ 0003:000015fc       ??_C@_04GKKOBNAI@PID?6?$AA@ 100335fc     GWCModule.obj
+ 0003:00001604       ??_C@_0BC@GKJNNEBA@MatchDoneLocation?$AA@ 10033604     GWCModule.obj
+ 0003:0000161c       ??_C@_0BF@EOLLPALG@RequestQuoteFunction?$AA@ 1003361c     GWCModule.obj
+ 0003:00001638       ??_C@_0BB@LCOCDLDJ@GroupSizeHookRet?$AA@ 10033638     GWCModule.obj
+ 0003:0000164c       ??_C@_0BA@KLKLAMBN@GroupSizeHookSP?$AA@ 1003364c     GWCModule.obj
+ 0003:00001660       ??_C@_0O@EMHKHEOL@GroupSizeCode?$AA@ 10033660     GWCModule.obj
+ 0003:00001670       ??_C@_0BI@JMKGJCLB@PacketLoggingHookReturn?$AA@ 10033670     GWCModule.obj
+ 0003:0000168c       ??_C@_0BA@LPNLLFPN@TargetLogReturn?$AA@ 1003368c     GWCModule.obj
+ 0003:000016a0       ??_C@_0P@DNANMFF@TargetLogStart?$AA@ 100336a0     GWCModule.obj
+ 0003:000016b4       ??_C@_0BB@HMGJGBMJ@TraderCostReturn?$AA@ 100336b4     GWCModule.obj
+ 0003:000016c8       ??_C@_0BA@LNIKEJKI@TraderCostStart?$AA@ 100336c8     GWCModule.obj
+ 0003:000016dc       ??_C@_0P@FPIDIKBB@StoCStartSPRet?$AA@ 100336dc     GWCModule.obj
+ 0003:000016f0       ??_C@_0M@PFOPGFBJ@StoCStartSP?$AA@ 100336f0     GWCModule.obj
+ 0003:00001700       ??_C@_0P@BHPJPIKC@CtoSStartSPRet?$AA@ 10033700     GWCModule.obj
+ 0003:00001714       ??_C@_0M@FFDHMKJE@CtoSStartSP?$AA@ 10033714     GWCModule.obj
+ 0003:00001724       ??_C@_0BE@JLLFMOLH@TimeStampFunctionSP?$AA@ 10033724     GWCModule.obj
+ 0003:0000173c       ??_C@_0BB@MFMDBMKD@ChatLogRetCodeSP?$AA@ 1003373c     GWCModule.obj
+ 0003:00001750       ??_C@_0BC@CCGAFGGM@ChatLogHookCodeSP?$AA@ 10033750     GWCModule.obj
+ 0003:00001768       ??_C@_0BD@JLHKLOLC@GetItemValueCodeSP?$AA@ 10033768     GWCModule.obj
+ 0003:00001780       ??_C@_0BH@MCMKGBCB@UseSkillFunctionCodeSP?$AA@ 10033780     GWCModule.obj
+ 0003:0000179c       ??_C@_0BD@INFGBDKH@DialogCodeReturnSP?$AA@ 1003379c     GWCModule.obj
+ 0003:000017b4       ??_C@_0BC@PLLIKBOL@DialogCodeStartSP?$AA@ 100337b4     GWCModule.obj
+ 0003:000017cc       ??_C@_0BE@HOCHKJLJ@EmailLocationCodeSP?$AA@ 100337cc     GWCModule.obj
+ 0003:000017e4       ??_C@_0BG@EANIPHNF@StorageFunctionCodeSP?$AA@ 100337e4     GWCModule.obj
+ 0003:00001800       ??_C@_0BJ@MEMMEPAF@ConnectionLocationCodeSP?$AA@ 10033800     GWCModule.obj
+ 0003:00001820       ??_C@_0BF@KJGHEFEA@TraderFunctionCodeSP?$AA@ 10033820     GWCModule.obj
+ 0003:0000183c       ??_C@_0BH@LFOMKKOI@LanguageLocationCodeSP?$AA@ 1003383c     GWCModule.obj
+ 0003:00001858       ??_C@_0BF@DLBLNOMH@RegionLocationCodeSP?$AA@ 10033858     GWCModule.obj
+ 0003:00001874       ??_C@_0BA@GBOKOBJN@SetAttrisCodeSP?$AA@ 10033874     GWCModule.obj
+ 0003:00001888       ??_C@_0BD@NEDKHHIN@LoadFinishedCodeSP?$AA@ 10033888     GWCModule.obj
+ 0003:000018a0       ??_C@_0BE@LPCHGPDL@SkillTypeBaseCodeSP?$AA@ 100338a0     GWCModule.obj
+ 0003:000018b8       ??_C@_0N@PBLHLFFB@EngineCodeSP?$AA@ 100338b8     GWCModule.obj
+ 0003:000018c8       ??_C@_0BK@HNIEJBAH@BasePointerLocationCodeSP?$AA@ 100338c8     GWCModule.obj
+ 0003:000018e8       ??_C@_0BD@NDOEGHEM@DeadLocationCodeSP?$AA@ 100338e8     GWCModule.obj
+ 0003:00001900       ??_C@_0BD@JOCJFCPO@NameLocationCodeSP?$AA@ 10033900     GWCModule.obj
+ 0003:00001918       ??_C@_0BH@GJCOHLM@LoggedInLocationCodeSP?$AA@ 10033918     GWCModule.obj
+ 0003:00001934       ??_C@_0BD@NKHNKPIJ@PingLocationCodeSP?$AA@ 10033934     GWCModule.obj
+ 0003:0000194c       ??_C@_0O@KHFMHLPF@BuyItemCodeSP?$AA@ 1003394c     GWCModule.obj
+ 0003:0000195c       ??_C@_0P@DBFAGLFI@SellItemCodeSP?$AA@ 1003395c     GWCModule.obj
+ 0003:00001970       ??_C@_0BD@EBJGEIAL@MaxZoomStillCodeSP?$AA@ 10033970     GWCModule.obj
+ 0003:00001988       ??_C@_0BD@OOOHGNMB@ChangeTargetCodeSP?$AA@ 10033988     GWCModule.obj
+ 0003:000019a0       ??_C@_0BC@LEDMJJCD@BuildNumberCodeSP?$AA@ 100339a0     GWCModule.obj
+ 0003:000019b8       ??_C@_0BC@NHLDMCIJ@ClickToMoveCodeSP?$AA@ 100339b8     GWCModule.obj
+ 0003:000019d0       ??_C@_0BA@IBEGODJC@CurrentTargetSP?$AA@ 100339d0     GWCModule.obj
+ 0003:000019e4       ??_C@_0BD@LMJDIDBI@AgentBaseCodeMaxSP?$AA@ 100339e4     GWCModule.obj
+ 0003:000019fc       ??_C@_0BG@LKEIPMAC@TargetFunctionsCodeSP?$AA@ 100339fc     GWCModule.obj
+ 0003:00001a18       ??_C@_0BD@GHANFGOG@WriteWhisperCodeSP?$AA@ 10033a18     GWCModule.obj
+ 0003:00001a30       ??_C@_0BE@JPHECICA@MapIdLocationCodeSP?$AA@ 10033a30     GWCModule.obj
+ 0003:00001a48       ??_C@_0BA@EICEEDNM@AgentBaseCodeSP?$AA@ 10033a48     GWCModule.obj
+ 0003:00001a5c       ??_C@_0BB@MJDFMLIL@BaseOffsetCodeSP?$AA@ 10033a5c     GWCModule.obj
+ 0003:00001a70       ??_C@_0BB@GBMAOPEJ@PacketSendCodeSP?$AA@ 10033a70     GWCModule.obj
+ 0003:00001a84       ??_C@_0M@MAECMPEE@OwnYCoordSP?$AA@ 10033a84     GWCModule.obj
+ 0003:00001a94       ??_C@_0M@NHDJNLAH@OwnXCoordSP?$AA@ 10033a94     GWCModule.obj
+ 0003:00001aa4       ??_C@_0N@KMDDLPBG@LoadScreenSP?$AA@ 10033aa4     GWCModule.obj
+ 0003:00001ab4       ??_C@_0BA@MBCPGCAO@WinHandleCodeSP?$AA@ 10033ab4     GWCModule.obj
+ 0003:00001ac8       ??_C@_04KMAJDAAN@IDSP?$AA@ 10033ac8     GWCModule.obj
+ 0003:00001ad0       ??_C@_1BK@MGMFAEKH@?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10033ad0     GWCModule.obj
+ 0003:00001af0       ??_C@_0N@LOMLCOFC@LoadLibraryA?$AA@ 10033af0     GWCModule.obj
+ 0003:00001b00       ??_C@_0N@PCAJNBMK@?$CFs?2Gw?5MC?4exe?$AA@ 10033b00     GWCModule.obj
+ 0003:00001b10       ??_C@_02JDPG@rb?$AA@       10033b10     GWCModule.obj
+ 0003:00001b14       ??_C@_1BE@EHOOIDAG@?$AAg?$AAw?$AA?5?$AAm?$AAc?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 10033b14     GWCModule.obj
+ 0003:00001b2c       ??_C@_1O@LFJANOIL@?$AAg?$AAw?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 10033b2c     GWCModule.obj
+ 0003:00001b3c       ??_C@_1CO@FNIDKHMC@?$AAd?$AAe?$AAq?$AAu?$AAe?$AA?5?$AAe?$AAm?$AAp?$AAt?$AAy?$AA?5?$AAb?$AAe?$AAf?$AAo?$AAr?$AAe?$AA?5?$AAp?$AAo?$AAp?$AA?$AA@ 10033b3c     GWCModule.obj
+ 0003:00001b78       ??_C@_1IK@KECLHOPJ@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@ 10033b78     GWCModule.obj
+ 0003:00001c20       ??_C@_1DC@POOIKBAO@?$AAI?$AAT?$AAE?$AAR?$AAA?$AAT?$AAO?$AAR?$AA?5?$AAL?$AAI?$AAS?$AAT?$AA?5?$AAC?$AAO?$AAR?$AAR?$AAU?$AAP?$AAT?$AAE?$AAD?$AA?$CB?$AA?$AA@ 10033c20     GWCModule.obj
+ 0003:00001c60       ??_C@_1JA@DBMECOPL@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@ 10033c60     GWCModule.obj
+ 0003:00001d0c       ??_C@_0BC@KBDMBKEH@deque?$DMT?$DO?5too?5long?$AA@ 10033d0c     GWCModule.obj
+ 0003:00001d24       ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@ 10033d24     GWCModule.obj
+ 0003:00001d48       ??_C@_1LO@FKEANIOC@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAD?$AAe?$AAq?$AAu?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs?$AAs@ 10033d48     GWCModule.obj
+ 0003:00001e30       ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@ 10033e30     GWCModule.obj
+ 0003:00001e98       ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@ 10033e98     GWCModule.obj
+ 0003:00001ec8       ??_C@_1EE@INPCGGNP@?$AAd?$AAe?$AAq?$AAu?$AAe?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb?$AAl@ 10033ec8     GWCModule.obj
+ 0003:00001f20       ??_C@_1JK@EEOMPGJF@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAD?$AAe?$AAq?$AAu?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAv?$AAo?$AAi?$AAd?$AA?5@ 10033f20     GWCModule.obj
+ 0003:00001fd8       __real@3ff0000000000000    10033fd8     GWCModule.obj
+ 0003:00001fe4       __real@3f800000            10033fe4     GWCModule.obj
+ 0003:00001fec       ??_7bad_alloc@std@@6B@     10033fec     GWCModule.obj
+ 0003:00001ff8       ??_C@_1IM@EJIMMBE@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@ 10033ff8     GWCModule.obj
+ 0003:000020a0       ??_C@_1CK@EOPGIILJ@?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAn?$AAu?$AAl?$AAl?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AAe?$AAr?$AA?$AA@ 100340a0     GWCModule.obj
+ 0003:000020d4       ??_C@_1CO@DGLIKNHI@?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$AA@ 100340d4     GWCModule.obj
+ 0003:0000210c       ??_C@_0BA@FJNINFIB@?2?2?4?2pipe?2GWC_?$CFi?$AA@ 1003410c     GWCModule.obj
+ 0003:00002124       ??_7type_info@@6B@         10034124     MSVCRTD:ti_inst.obj
+ 0003:0000212c       __pDefaultRawDllMain       1003412c     MSVCRTD:crtdll.obj
+ 0003:0000212c       __pRawDllMain              1003412c     MSVCRTD:crtdll.obj
+ 0003:00002130       ??_C@_0DA@FJPPCPEH@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 10034130     MSVCRTD:crtdll.obj
+ 0003:0000216c       ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ 1003416c     MSVCRTD:_error_.obj
+ 0003:00002190       ??_C@_0CM@NGINOKPC@Stack?5memory?5around?5_alloca?5was?5@ 10034190     MSVCRTD:_error_.obj
+ 0003:000021c4       ??_C@_0DG@HKJMLLLP@A?5local?5variable?5was?5used?5before@ 100341c4     MSVCRTD:_error_.obj
+ 0003:00002204       ??_C@_0BN@FFOINMNJ@Stack?5memory?5was?5corrupted?6?$AN?$AA@ 10034204     MSVCRTD:_error_.obj
+ 0003:00002228       ??_C@_0BBN@GPMLNJCF@A?5cast?5to?5a?5smaller?5data?5type?5ha@ 10034228     MSVCRTD:_error_.obj
+ 0003:00002380       ??_C@_0NN@NGPKDKPD@The?5value?5of?5ESP?5was?5not?5properl@ 10034380     MSVCRTD:_error_.obj
+ 0003:00002548       ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@ 10034548     MSVCRTD:_error_.obj
+ 0003:00002570       ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@ 10034570     MSVCRTD:_error_.obj
+ 0003:00002588       ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@ 10034588     MSVCRTD:_error_.obj
+ 0003:000025a0       ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100345a0     MSVCRTD:_error_.obj
+ 0003:000025f0       ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@ 100345f0     MSVCRTD:_error_.obj
+ 0003:00002674       ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@ 10034674     MSVCRTD:_error_.obj
+ 0003:000026a8       ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@ 100346a8     MSVCRTD:_error_.obj
+ 0003:00002700       ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@ 10034700     MSVCRTD:_error_.obj
+ 0003:0000270c       ??_C@_02LLMPMKNF@?$DO?5?$AA@ 1003470c     MSVCRTD:_error_.obj
+ 0003:00002710       ??_C@_01EEMJAFIK@?6?$AA@   10034710     MSVCRTD:_error_.obj
+ 0003:00002714       ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@ 10034714     MSVCRTD:_error_.obj
+ 0003:00002730       ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@ 10034730     MSVCRTD:_error_.obj
+ 0003:00002788       ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@ 10034788     MSVCRTD:_error_.obj
+ 0003:00002798       ??_C@_07DFDJCKFN@?6Size?3?5?$AA@ 10034798     MSVCRTD:_error_.obj
+ 0003:000027a4       ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@ 100347a4     MSVCRTD:_error_.obj
+ 0003:000027d8       ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@ 100347d8     MSVCRTD:_error_.obj
+ 0003:000027e4       ??_C@_09FOPFMPEJ@wsprintfA?$AA@ 100347e4     MSVCRTD:_error_.obj
+ 0003:000027f0       ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100347f0     MSVCRTD:_error_.obj
+ 0003:0000280c       ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ 1003480c     MSVCRTD:_error_.obj
+ 0003:00002814       ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@ 10034814     MSVCRTD:_error_.obj
+ 0003:00002854       ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted?$AA@ 10034854     MSVCRTD:_userapi_.obj
+ 0003:0000287c       ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5initi@ 1003487c     MSVCRTD:_userapi_.obj
+ 0003:000028b0       ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption?$AA@ 100348b0     MSVCRTD:_userapi_.obj
+ 0003:000028cc       ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5los@ 100348cc     MSVCRTD:_userapi_.obj
+ 0003:00002900       ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption?$AA@ 10034900     MSVCRTD:_userapi_.obj
+ 0003:00002944       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 10034944     MSVCRTD:tncleanup.obj
+ 0003:00002948       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 10034948     MSVCRTD:tncleanup.obj
+ 0003:0000294c       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 1003494c     MSVCRTD:tncleanup.obj
+ 0003:00002950       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 10034950     MSVCRTD:tncleanup.obj
+ 0003:00002954       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 10034954     MSVCRTD:tncleanup.obj
+ 0003:00002978       ??_C@_01KDCPPGHE@r?$AA@    10034978     MSVCRTD:_pdblkup_.obj
+ 0003:0000297c       ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@ 1003497c     MSVCRTD:_pdblkup_.obj
+ 0003:00002990       ??_C@_1CK@HHHCOJPD@?$AAE?$AAn?$AAv?$AAi?$AAr?$AAo?$AAn?$AAm?$AAe?$AAn?$AAt?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt?$AAo?$AAr?$AAy?$AA?$AA@ 10034990     MSVCRTD:_pdblkup_.obj
+ 0003:000029c8       ??_C@_1FM@DNCABAP@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAV?$AAi?$AAs?$AAu?$AAa?$AAl?$AAS?$AAt?$AAu?$AAd?$AAi?$AAo?$AA?2@ 100349c8     MSVCRTD:_pdblkup_.obj
+ 0003:00002a38       ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@ 10034a38     MSVCRTD:_pdblkup_.obj
+ 0003:00002a48       ??_C@_0BB@GLNAEDBD@RegQueryValueExW?$AA@ 10034a48     MSVCRTD:_pdblkup_.obj
+ 0003:00002a5c       ??_C@_0O@COHOBMLB@RegOpenKeyExW?$AA@ 10034a5c     MSVCRTD:_pdblkup_.obj
+ 0003:00002a6c       ??_C@_1BK@GAEMIDIL@?$AAA?$AAD?$AAV?$AAA?$AAP?$AAI?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10034a6c     MSVCRTD:_pdblkup_.obj
+ 0003:00002df4       ??_R4bad_alloc@std@@6B@    10034df4     GWCModule.obj
+ 0003:00002e0c       ??_R3bad_alloc@std@@8      10034e0c     GWCModule.obj
+ 0003:00002e20       ??_R2bad_alloc@std@@8      10034e20     GWCModule.obj
+ 0003:00002e2c       ??_R1A@?0A@EA@bad_alloc@std@@8 10034e2c     GWCModule.obj
+ 0003:00002e50       ??_R1A@?0A@EA@exception@std@@8 10034e50     GWCModule.obj
+ 0003:00002e74       ??_R3exception@std@@8      10034e74     GWCModule.obj
+ 0003:00002e88       ??_R2exception@std@@8      10034e88     GWCModule.obj
+ 0003:00002e90       ??_R4type_info@@6B@        10034e90     MSVCRTD:ti_inst.obj
+ 0003:00002ea8       ??_R3type_info@@8          10034ea8     MSVCRTD:ti_inst.obj
+ 0003:00002ebc       ??_R2type_info@@8          10034ebc     MSVCRTD:ti_inst.obj
+ 0003:00002ec4       ??_R1A@?0A@EA@type_info@@8 10034ec4     MSVCRTD:ti_inst.obj
+ 0003:00002fec       ___rtc_iaa                 10034fec     MSVCRTD:_initsect_.obj
+ 0003:000031f4       ___rtc_izz                 100351f4     MSVCRTD:_initsect_.obj
+ 0003:000032f8       ___rtc_taa                 100352f8     MSVCRTD:_initsect_.obj
+ 0003:00003500       ___rtc_tzz                 10035500     MSVCRTD:_initsect_.obj
+ 0003:00004228       __TI2?AVbad_alloc@std@@    10036228     GWCModule.obj
+ 0003:0000423c       __CTA2?AVbad_alloc@std@@   1003623c     GWCModule.obj
+ 0003:0000424c       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 1003624c     GWCModule.obj
+ 0003:0000426c       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 1003626c     GWCModule.obj
+ 0004:00000000       ?start@@3PAEA              10037000     GWCModule.obj
+ 0004:00000004       ?endScan@@3PAEA            10037004     GWCModule.obj
+ 0004:00000008       ?GroupSize@@3KA            10037008     GWCModule.obj
+ 0004:00000010       ??_R0?AVbad_alloc@std@@@8  10037010     GWCModule.obj
+ 0004:00000034       ??_R0?AVexception@std@@@8  10037034     GWCModule.obj
+ 0004:00000058       ___security_cookie         10037058     MSVCRTD:gs_cookie.obj
+ 0004:0000005c       ___security_cookie_complement 1003705c     MSVCRTD:gs_cookie.obj
+ 0004:00000060       ??_R0?AVtype_info@@@8      10037060     MSVCRTD:ti_inst.obj
+ 0004:0000007c       ?_RTC_ErrorLevels@@3PAHA   1003707c     MSVCRTD:_error_.obj
+ 0004:00000094       ___native_dllmain_reason   10037094     MSVCRTD:natstart.obj
+ 0004:00000098       ___native_vcclrit_reason   10037098     MSVCRTD:natstart.obj
+ 0004:000001a8       ?TraderCostId@@3JA         100371a8     GWCModule.obj
+ 0004:000001ac       ?EngineExStart@@3PAEA      100371ac     GWCModule.obj
+ 0004:000001b0       ?ConsoleFH@@3PAU_iobuf@@A  100371b0     GWCModule.obj
+ 0004:000001b4       ?PacketNFO@@3PAEA          100371b4     GWCModule.obj
+ 0004:000001b8       ?UseSkillFunctionCodeSP@@3PAEA 100371b8     GWCModule.obj
+ 0004:000001bc       ?EngineHookSave@@3PAEA     100371bc     GWCModule.obj
+ 0004:000001c4       ?MyItemManager@@3PAVItemManager@@A 100371c4     GWCModule.obj
+ 0004:000001c8       ?Skillbars@@3PAVSkillbarHandler@@A 100371c8     GWCModule.obj
+ 0004:000001cc       ?MySectionA@@3PAVCSectionA@@A 100371cc     GWCModule.obj
+ 0004:000001d0       ?TraderCostValue@@3JA      100371d0     GWCModule.obj
+ 0004:000001d4       ?EngineExRet@@3PAEA        100371d4     GWCModule.obj
+ 0004:000001d8       ?Agents@@3VAgentArray@@A   100371d8     GWCModule.obj
+ 0004:000001dc       ?PacketLocation@@3KA       100371dc     GWCModule.obj
+ 0004:000001e0       ?MainOffsetHook@@3PAEA     100371e0     GWCModule.obj
+ 0004:000001e4       ?MainOffsetHookRet@@3PAEA  100371e4     GWCModule.obj
+ 0004:000001e8       ?IDSP@@3PAEA               100371e8     GWCModule.obj
+ 0004:000001ec       ?WinHandleCodeSP@@3PAEA    100371ec     GWCModule.obj
+ 0004:000001f0       ?LoadScreenSP@@3PAEA       100371f0     GWCModule.obj
+ 0004:000001f4       ?OwnXCoordSP@@3PAEA        100371f4     GWCModule.obj
+ 0004:000001f8       ?OwnYCoordSP@@3PAEA        100371f8     GWCModule.obj
+ 0004:000001fc       ?PacketSendCodeSP@@3PAEA   100371fc     GWCModule.obj
+ 0004:00000200       ?BaseOffsetCodeSP@@3PAEA   10037200     GWCModule.obj
+ 0004:00000204       ?AgentBaseCodeSP@@3PAEA    10037204     GWCModule.obj
+ 0004:00000208       ?MapIdLocationCodeSP@@3PAEA 10037208     GWCModule.obj
+ 0004:0000020c       ?WriteWhisperCodeSP@@3PAEA 1003720c     GWCModule.obj
+ 0004:00000210       ?TargetFunctionsCodeSP@@3PAEA 10037210     GWCModule.obj
+ 0004:00000214       ?AgentBaseCodeMaxSP@@3PAEA 10037214     GWCModule.obj
+ 0004:00000218       ?CurrentTargetSP@@3PAEA    10037218     GWCModule.obj
+ 0004:0000021c       ?ClickToMoveCodeSP@@3PAEA  1003721c     GWCModule.obj
+ 0004:00000220       ?BuildNumberCodeSP@@3PAEA  10037220     GWCModule.obj
+ 0004:00000224       ?ChangeTargetCodeSP@@3PAEA 10037224     GWCModule.obj
+ 0004:00000228       ?MaxZoomStillCodeSP@@3PAEA 10037228     GWCModule.obj
+ 0004:0000022c       ?MaxZoomMobileCodeSP@@3PAEA 1003722c     GWCModule.obj
+ 0004:00000230       ?SellItemCodeSP@@3PAEA     10037230     GWCModule.obj
+ 0004:00000234       ?BuyItemCodeSP@@3PAEA      10037234     GWCModule.obj
+ 0004:00000238       ?PingLocationCodeSP@@3PAEA 10037238     GWCModule.obj
+ 0004:0000023c       ?LoggedInLocationCodeSP@@3PAEA 1003723c     GWCModule.obj
+ 0004:00000240       ?NameLocationCodeSP@@3PAEA 10037240     GWCModule.obj
+ 0004:00000244       ?DeadLocationCodeSP@@3PAEA 10037244     GWCModule.obj
+ 0004:00000248       ?BasePointerLocationCodeSP@@3PAEA 10037248     GWCModule.obj
+ 0004:0000024c       ?EngineCodeSP@@3PAEA       1003724c     GWCModule.obj
+ 0004:00000250       ?SkillTypeBaseCodeSP@@3PAEA 10037250     GWCModule.obj
+ 0004:00000254       ?LoadFinishedCodeSP@@3PAEA 10037254     GWCModule.obj
+ 0004:00000258       ?SetAttrisCodeSP@@3PAEA    10037258     GWCModule.obj
+ 0004:0000025c       ?RegionLocationCodeSP@@3PAEA 1003725c     GWCModule.obj
+ 0004:00000260       ?LanguageLocationCodeSP@@3PAEA 10037260     GWCModule.obj
+ 0004:00000264       ?TraderFunctionCodeSP@@3PAEA 10037264     GWCModule.obj
+ 0004:00000268       ?ConnectionLocationCodeSP@@3PAEA 10037268     GWCModule.obj
+ 0004:0000026c       ?StorageFunctionCodeSP@@3PAEA 1003726c     GWCModule.obj
+ 0004:00000270       ?EmailLocationCodeSP@@3PAEA 10037270     GWCModule.obj
+ 0004:00000274       ?DialogCodeStartSP@@3PAEA  10037274     GWCModule.obj
+ 0004:00000278       ?DialogCodeReturnSP@@3PAEA 10037278     GWCModule.obj
+ 0004:0000027c       ?GetItemValueCodeSP@@3PAEA 1003727c     GWCModule.obj
+ 0004:00000280       ?ChatLogHookCodeSP@@3PAEA  10037280     GWCModule.obj
+ 0004:00000284       ?ChatLogRetCodeSP@@3PAEA   10037284     GWCModule.obj
+ 0004:00000288       ?TimeStampFunctionSP@@3PAEA 10037288     GWCModule.obj
+ 0004:0000028c       ?CtoSStartSP@@3PAEA        1003728c     GWCModule.obj
+ 0004:00000290       ?CtoSStartSPRet@@3PAEA     10037290     GWCModule.obj
+ 0004:00000294       ?StoCStartSP@@3PAEA        10037294     GWCModule.obj
+ 0004:00000298       ?StoCStartSPRet@@3PAEA     10037298     GWCModule.obj
+ 0004:0000029c       ?TraderCostStart@@3PAEA    1003729c     GWCModule.obj
+ 0004:000002a0       ?TraderCostReturn@@3PAEA   100372a0     GWCModule.obj
+ 0004:000002a4       ?TargetLogStart@@3PAEA     100372a4     GWCModule.obj
+ 0004:000002a8       ?TargetLogReturn@@3PAEA    100372a8     GWCModule.obj
+ 0004:000002ac       ?PacketLoggingHookReturn@@3PAEA 100372ac     GWCModule.obj
+ 0004:000002b0       ?GroupSizeCode@@3PAEA      100372b0     GWCModule.obj
+ 0004:000002b4       ?GroupSizeHookSP@@3PAEA    100372b4     GWCModule.obj
+ 0004:000002b8       ?GroupSizeHookRet@@3PAEA   100372b8     GWCModule.obj
+ 0004:000002bc       ?RequestQuoteFunction@@3PAEA 100372bc     GWCModule.obj
+ 0004:000002c0       ?MatchDoneLocation@@3PAEA  100372c0     GWCModule.obj
+ 0004:000002c4       ?ViewVectors@@3KA          100372c4     GWCModule.obj
+ 0004:000002c8       ?ViewAngels@@3KA           100372c8     GWCModule.obj
+ 0004:000002cc       ?CamClass@@3KA             100372cc     GWCModule.obj
+ 0004:000002d0       ?CameraPosition@@3KA       100372d0     GWCModule.obj
+ 0004:000002d4       ?LastDialogId@@3HA         100372d4     GWCModule.obj
+ 0004:000002d8       ?PacketSize@@3KA           100372d8     GWCModule.obj
+ 0004:000002dc       ?PacketEBP@@3PAKA          100372dc     GWCModule.obj
+ 0004:000002e0       ?GvGTimerStart@@3KA        100372e0     GWCModule.obj
+ 0004:000002e4       ?PacketStart2@@3PAEA       100372e4     GWCModule.obj
+ 0004:000002e8       ?PacketStart@@3PAEA        100372e8     GWCModule.obj
+ 0004:000002ec       ?PSize@@3KA                100372ec     GWCModule.obj
+ 0004:000002f0       ?GWMail@@3UGWHeader@@A     100372f0     GWCModule.obj
+ 0004:00000324       ?SendingQueue@@3V?$queue@PAVCPacket@@V?$deque@PAVCPacket@@V?$allocator@PAVCPacket@@@std@@@std@@@std@@A 10037324     GWCModule.obj
+ 0004:0000033c       ?sWindows@@3PA_WA          1003733c     GWCModule.obj
+ 0004:00000340       ?NewPipe@@3Vpipe@@A        10037340     GWCModule.obj
+ 0004:00000344       ?GWMailQueueHandle@@3V?$queue@PAXV?$deque@PAXV?$allocator@PAX@std@@@std@@@std@@A 10037344     GWCModule.obj
+ 0004:000003b8       ?wsprintffp@@3P6AHPADPBDZZA 100373b8     MSVCRTD:_error_.obj
+ 0004:0000078c       ?__type_info_root_node@@3U__type_info_node@@A 1003778c     MSVCRTD:tncleanup.obj
+ 0004:000007a0       ___native_startup_state    100377a0     <common>
+ 0004:000007b0       ___native_startup_lock     100377b0     <common>
+ 0004:000007b4       ___sse2_available          100377b4     <common>
+ 0004:000007c0       ___dyn_tls_init_callback   100377c0     <common>
+ 0004:000007cc       ___onexitend               100377cc     <common>
+ 0004:000007dc       ___onexitbegin             100377dc     <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_KERNEL32 10038000     kernel32:KERNEL32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_USER32 10038014     user32:USER32.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_MSVCP100D 10038028     msvcprtd:MSVCP100D.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_MSVCR100D 1003803c     MSVCRTD:MSVCR100D.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   10038050     kernel32:KERNEL32.dll
+ 0005:00000350       __imp__Sleep@4             10038350     kernel32:KERNEL32.dll
+ 0005:00000354       __imp__VirtualProtect@16   10038354     kernel32:KERNEL32.dll
+ 0005:00000358       __imp__CloseHandle@4       10038358     kernel32:KERNEL32.dll
+ 0005:0000035c       __imp__SetProcessWorkingSetSize@12 1003835c     kernel32:KERNEL32.dll
+ 0005:00000360       __imp__OpenProcess@12      10038360     kernel32:KERNEL32.dll
+ 0005:00000364       __imp__GetCurrentProcessId@0 10038364     kernel32:KERNEL32.dll
+ 0005:00000368       __imp__FreeConsole@0       10038368     kernel32:KERNEL32.dll
+ 0005:0000036c       __imp__SetConsoleScreenBufferSize@8 1003836c     kernel32:KERNEL32.dll
+ 0005:00000370       __imp__SetConsoleWindowInfo@12 10038370     kernel32:KERNEL32.dll
+ 0005:00000374       __imp__GetStdHandle@4      10038374     kernel32:KERNEL32.dll
+ 0005:00000378       __imp__SetConsoleTitleA@4  10038378     kernel32:KERNEL32.dll
+ 0005:0000037c       __imp__AllocConsole@0      1003837c     kernel32:KERNEL32.dll
+ 0005:00000380       __imp__DisconnectNamedPipe@4 10038380     kernel32:KERNEL32.dll
+ 0005:00000384       __imp__FlushFileBuffers@4  10038384     kernel32:KERNEL32.dll
+ 0005:00000388       __imp__WriteFile@20        10038388     kernel32:KERNEL32.dll
+ 0005:0000038c       __imp__ReadFile@20         1003838c     kernel32:KERNEL32.dll
+ 0005:00000390       __imp__CreateThread@24     10038390     kernel32:KERNEL32.dll
+ 0005:00000394       __imp__CreateRemoteThread@28 10038394     kernel32:KERNEL32.dll
+ 0005:00000398       __imp__GetProcAddress@8    10038398     kernel32:KERNEL32.dll
+ 0005:0000039c       __imp__GetModuleHandleW@4  1003839c     kernel32:KERNEL32.dll
+ 0005:000003a0       __imp__WriteProcessMemory@20 100383a0     kernel32:KERNEL32.dll
+ 0005:000003a4       __imp__VirtualAllocEx@20   100383a4     kernel32:KERNEL32.dll
+ 0005:000003a8       __imp__Thread32Next@8      100383a8     kernel32:KERNEL32.dll
+ 0005:000003ac       __imp__ResumeThread@4      100383ac     kernel32:KERNEL32.dll
+ 0005:000003b0       __imp__SuspendThread@4     100383b0     kernel32:KERNEL32.dll
+ 0005:000003b4       __imp__OpenThread@12       100383b4     kernel32:KERNEL32.dll
+ 0005:000003b8       __imp__Thread32First@8     100383b8     kernel32:KERNEL32.dll
+ 0005:000003bc       __imp__CreateToolhelp32Snapshot@8 100383bc     kernel32:KERNEL32.dll
+ 0005:000003c0       __imp__ConnectNamedPipe@8  100383c0     kernel32:KERNEL32.dll
+ 0005:000003c4       __imp__CreateNamedPipeA@32 100383c4     kernel32:KERNEL32.dll
+ 0005:000003c8       __imp__VirtualQuery@12     100383c8     kernel32:KERNEL32.dll
+ 0005:000003cc       __imp__GetModuleFileNameW@12 100383cc     kernel32:KERNEL32.dll
+ 0005:000003d0       __imp__GetProcessHeap@0    100383d0     kernel32:KERNEL32.dll
+ 0005:000003d4       __imp__HeapAlloc@12        100383d4     kernel32:KERNEL32.dll
+ 0005:000003d8       __imp__HeapFree@12         100383d8     kernel32:KERNEL32.dll
+ 0005:000003dc       __imp__GetSystemTimeAsFileTime@4 100383dc     kernel32:KERNEL32.dll
+ 0005:000003e0       __imp__GetCurrentThreadId@0 100383e0     kernel32:KERNEL32.dll
+ 0005:000003e4       __imp__GetTickCount@0      100383e4     kernel32:KERNEL32.dll
+ 0005:000003e8       __imp__QueryPerformanceCounter@4 100383e8     kernel32:KERNEL32.dll
+ 0005:000003ec       __imp__IsProcessorFeaturePresent@4 100383ec     kernel32:KERNEL32.dll
+ 0005:000003f0       __imp__SetUnhandledExceptionFilter@4 100383f0     kernel32:KERNEL32.dll
+ 0005:000003f4       __imp__UnhandledExceptionFilter@4 100383f4     kernel32:KERNEL32.dll
+ 0005:000003f8       __imp__GetCurrentProcess@0 100383f8     kernel32:KERNEL32.dll
+ 0005:000003fc       __imp__TerminateProcess@8  100383fc     kernel32:KERNEL32.dll
+ 0005:00000400       __imp__LoadLibraryW@4      10038400     kernel32:KERNEL32.dll
+ 0005:00000404       __imp__lstrlenA@4          10038404     kernel32:KERNEL32.dll
+ 0005:00000408       __imp__RaiseException@16   10038408     kernel32:KERNEL32.dll
+ 0005:0000040c       __imp__MultiByteToWideChar@24 1003840c     kernel32:KERNEL32.dll
+ 0005:00000410       __imp__IsDebuggerPresent@0 10038410     kernel32:KERNEL32.dll
+ 0005:00000414       __imp__WideCharToMultiByte@32 10038414     kernel32:KERNEL32.dll
+ 0005:00000418       __imp__InterlockedCompareExchange@12 10038418     kernel32:KERNEL32.dll
+ 0005:0000041c       __imp__InterlockedExchange@8 1003841c     kernel32:KERNEL32.dll
+ 0005:00000420       __imp__DecodePointer@4     10038420     kernel32:KERNEL32.dll
+ 0005:00000424       __imp__EncodePointer@4     10038424     kernel32:KERNEL32.dll
+ 0005:00000428       __imp__FreeLibrary@4       10038428     kernel32:KERNEL32.dll
+ 0005:0000042c       \177KERNEL32_NULL_THUNK_DATA 1003842c     kernel32:KERNEL32.dll
+ 0005:00000484       __imp_?_Debug_message@std@@YAXPB_W0I@Z 10038484     msvcprtd:MSVCP100D.dll
+ 0005:00000488       __imp_??1_Lockit@std@@QAE@XZ 10038488     msvcprtd:MSVCP100D.dll
+ 0005:0000048c       __imp_??0_Lockit@std@@QAE@H@Z 1003848c     msvcprtd:MSVCP100D.dll
+ 0005:00000490       __imp_?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ 10038490     msvcprtd:MSVCP100D.dll
+ 0005:00000494       __imp_?_Xlength_error@std@@YAXPBD@Z 10038494     msvcprtd:MSVCP100D.dll
+ 0005:00000498       __imp_??1_Container_base12@std@@QAE@XZ 10038498     msvcprtd:MSVCP100D.dll
+ 0005:0000049c       __imp_??0_Container_base12@std@@QAE@XZ 1003849c     msvcprtd:MSVCP100D.dll
+ 0005:000004a0       __imp_?_Orphan_all@_Container_base12@std@@QAEXXZ 100384a0     msvcprtd:MSVCP100D.dll
+ 0005:000004a4       \177MSVCP100D_NULL_THUNK_DATA 100384a4     msvcprtd:MSVCP100D.dll
+ 0005:000004d4       __imp__strcpy              100384d4     MSVCRTD:MSVCR100D.dll
+ 0005:000004d8       __imp__fread               100384d8     MSVCRTD:MSVCR100D.dll
+ 0005:000004dc       __imp__rewind              100384dc     MSVCRTD:MSVCR100D.dll
+ 0005:000004e0       __imp__ftell               100384e0     MSVCRTD:MSVCR100D.dll
+ 0005:000004e4       __imp__fseek               100384e4     MSVCRTD:MSVCR100D.dll
+ 0005:000004e8       __imp__fopen_s             100384e8     MSVCRTD:MSVCR100D.dll
+ 0005:000004ec       __imp___invalid_parameter  100384ec     MSVCRTD:MSVCR100D.dll
+ 0005:000004f0       __imp___CrtDbgReportW      100384f0     MSVCRTD:MSVCR100D.dll
+ 0005:000004f4       __imp__vsprintf_s          100384f4     MSVCRTD:MSVCR100D.dll
+ 0005:000004f8       __imp___CxxThrowException@8 100384f8     MSVCRTD:MSVCR100D.dll
+ 0005:000004fc       __imp_??0exception@std@@QAE@ABV01@@Z 100384fc     MSVCRTD:MSVCR100D.dll
+ 0005:00000500       __imp_??0exception@std@@QAE@ABQBD@Z 10038500     MSVCRTD:MSVCR100D.dll
+ 0005:00000504       __imp_?what@exception@std@@UBEPBDXZ 10038504     MSVCRTD:MSVCR100D.dll
+ 0005:00000508       __imp_??1exception@std@@UAE@XZ 10038508     MSVCRTD:MSVCR100D.dll
+ 0005:0000050c       __imp__memmove             1003850c     MSVCRTD:MSVCR100D.dll
+ 0005:00000510       __imp___except_handler4_common 10038510     MSVCRTD:MSVCR100D.dll
+ 0005:00000514       __imp___CRT_RTC_INITW      10038514     MSVCRTD:MSVCR100D.dll
+ 0005:00000518       __imp___unlock             10038518     MSVCRTD:MSVCR100D.dll
+ 0005:0000051c       __imp____dllonexit         1003851c     MSVCRTD:MSVCR100D.dll
+ 0005:00000520       __imp___lock               10038520     MSVCRTD:MSVCR100D.dll
+ 0005:00000524       __imp___onexit             10038524     MSVCRTD:MSVCR100D.dll
+ 0005:00000528       __imp__sprintf             10038528     MSVCRTD:MSVCR100D.dll
+ 0005:0000052c       __imp___free_dbg           1003852c     MSVCRTD:MSVCR100D.dll
+ 0005:00000530       __imp___encoded_null       10038530     MSVCRTD:MSVCR100D.dll
+ 0005:00000534       __imp___CrtSetCheckCount   10038534     MSVCRTD:MSVCR100D.dll
+ 0005:00000538       __imp___initterm           10038538     MSVCRTD:MSVCR100D.dll
+ 0005:0000053c       __imp___initterm_e         1003853c     MSVCRTD:MSVCR100D.dll
+ 0005:00000540       __imp___amsg_exit          10038540     MSVCRTD:MSVCR100D.dll
+ 0005:00000544       __imp____CppXcptFilter     10038544     MSVCRTD:MSVCR100D.dll
+ 0005:00000548       __imp___crt_debugger_hook  10038548     MSVCRTD:MSVCR100D.dll
+ 0005:0000054c       __imp_?terminate@@YAXXZ    1003854c     MSVCRTD:MSVCR100D.dll
+ 0005:00000550       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10038550     MSVCRTD:MSVCR100D.dll
+ 0005:00000554       __imp____clean_type_info_names_internal 10038554     MSVCRTD:MSVCR100D.dll
+ 0005:00000558       __imp__strlen              10038558     MSVCRTD:MSVCR100D.dll
+ 0005:0000055c       __imp____CxxFrameHandler3  1003855c     MSVCRTD:MSVCR100D.dll
+ 0005:00000560       __imp_??2@YAPAXI@Z         10038560     MSVCRTD:MSVCR100D.dll
+ 0005:00000564       __imp__memset              10038564     MSVCRTD:MSVCR100D.dll
+ 0005:00000568       __imp_??3@YAXPAX@Z         10038568     MSVCRTD:MSVCR100D.dll
+ 0005:0000056c       __imp___vswprintf_c_l      1003856c     MSVCRTD:MSVCR100D.dll
+ 0005:00000570       __imp__sqrt                10038570     MSVCRTD:MSVCR100D.dll
+ 0005:00000574       __imp__printf              10038574     MSVCRTD:MSVCR100D.dll
+ 0005:00000578       __imp__wprintf             10038578     MSVCRTD:MSVCR100D.dll
+ 0005:0000057c       __imp__fwrite              1003857c     MSVCRTD:MSVCR100D.dll
+ 0005:00000580       __imp__memcpy              10038580     MSVCRTD:MSVCR100D.dll
+ 0005:00000584       __imp__memcmp              10038584     MSVCRTD:MSVCR100D.dll
+ 0005:00000588       __imp__malloc              10038588     MSVCRTD:MSVCR100D.dll
+ 0005:0000058c       __imp__wcslen              1003858c     MSVCRTD:MSVCR100D.dll
+ 0005:00000590       __imp____iob_func          10038590     MSVCRTD:MSVCR100D.dll
+ 0005:00000594       __imp__freopen_s           10038594     MSVCRTD:MSVCR100D.dll
+ 0005:00000598       __imp___malloc_dbg         10038598     MSVCRTD:MSVCR100D.dll
+ 0005:0000059c       __imp__fclose              1003859c     MSVCRTD:MSVCR100D.dll
+ 0005:000005a0       __imp__free                100385a0     MSVCRTD:MSVCR100D.dll
+ 0005:000005a4       \177MSVCR100D_NULL_THUNK_DATA 100385a4     MSVCRTD:MSVCR100D.dll
+ 0005:000005f8       __imp__MessageBoxA@16      100385f8     user32:USER32.dll
+ 0005:000005fc       __imp__GetKeyState@4       100385fc     user32:USER32.dll
+ 0005:00000600       __imp__ShowWindow@8        10038600     user32:USER32.dll
+ 0005:00000604       __imp__SetWindowTextW@8    10038604     user32:USER32.dll
+ 0005:00000608       __imp__GetWindowThreadProcessId@8 10038608     user32:USER32.dll
+ 0005:0000060c       \177USER32_NULL_THUNK_DATA 1003860c     user32:USER32.dll
+
+ entry point at        0002:000005af
+
